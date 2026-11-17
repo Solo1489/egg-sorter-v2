@@ -1,0 +1,10851 @@
+{
+ "meta": {
+  "name": "Egg sorter v2 — 3D spec",
+  "units": "mm",
+  "up_axis": "Z",
+  "axes": {
+   "X": "ทิศไข่ไหล ซ้าย→ขวา (0 = ขอบซ้ายถาดป้อน)",
+   "Y": "หน้า→หลัง (0 = ผิวหน้าราง)",
+   "Z": "ขึ้น (0 = ผิวโต๊ะ)"
+  },
+  "bounding_box": {
+   "min": [
+    0,
+    -130,
+    0
+   ],
+   "max": [
+    985.0,
+    205.9,
+    321.8
+   ]
+  },
+  "source_doc": "https://claude.ai/artifact/XuhBVGGremGzTkBKat2fBy",
+  "egg": {
+   "diameter": 48.0,
+   "length": 65.0,
+   "radii_long_axis_y": [
+    24.0,
+    32.5,
+    24.0
+   ],
+   "material": "egg",
+   "note": "ไข่ออกแบบ: ไข่ไก่เบอร์ 0 ถึงราว 80 g + เผื่อ (escapement รองรับไข่เบอร์ 5 ขึ้นไป)"
+  },
+  "lanes": {
+   "F": {
+    "y_center": 42.0,
+    "y_range": [
+     5.0,
+     79.0
+    ]
+   },
+   "B": {
+    "y_center": 121.0,
+    "y_range": [
+     84.0,
+     158.0
+    ]
+   }
+  },
+  "chute_surface": {
+   "z0": 22.0,
+   "slope_back_deg": 5,
+   "slope_front_deg": 4
+  },
+  "chute_surface_reject": {
+   "z0": 22.0,
+   "slope_back_deg": 5,
+   "slope_front_deg": 4
+  },
+  "egg_runouts": {
+   "reject": {
+    "G": 421.0,
+    "stop_x": 502.4,
+    "shape": "curved",
+    "rest_x": 456.0,
+    "groove": [
+     [
+      421.0,
+      0.0
+     ],
+     [
+      427.79,
+      -1.41
+     ],
+     [
+      434.57,
+      -2.51
+     ],
+     [
+      441.36,
+      -3.31
+     ],
+     [
+      448.14,
+      -3.8
+     ],
+     [
+      454.93,
+      -4.0
+     ],
+     [
+      461.72,
+      -3.89
+     ],
+     [
+      468.5,
+      -3.5
+     ],
+     [
+      475.29,
+      -2.8
+     ],
+     [
+      482.07,
+      -1.79
+     ],
+     [
+      488.86,
+      -0.48
+     ],
+     [
+      495.64,
+      1.15
+     ],
+     [
+      502.43,
+      3.11
+     ]
+    ],
+    "groove_r": 155.1,
+    "lanes": {
+     "F": [
+      [
+       380.0,
+       38.9
+      ],
+      [
+       393.6,
+       32.1
+      ],
+      [
+       407.3,
+       27.8
+      ],
+      [
+       421.0,
+       25.67
+      ],
+      [
+       427.8,
+       24.26
+      ],
+      [
+       434.6,
+       23.15
+      ],
+      [
+       441.4,
+       22.35
+      ],
+      [
+       448.1,
+       21.86
+      ],
+      [
+       454.9,
+       21.66
+      ],
+      [
+       461.7,
+       21.77
+      ],
+      [
+       468.5,
+       22.16
+      ],
+      [
+       475.3,
+       22.86
+      ],
+      [
+       482.1,
+       23.88
+      ],
+      [
+       488.9,
+       25.19
+      ],
+      [
+       495.6,
+       26.83
+      ],
+      [
+       502.4,
+       28.8
+      ]
+     ],
+     "B": [
+      [
+       383.1,
+       43.7
+      ],
+      [
+       395.7,
+       38.0
+      ],
+      [
+       408.4,
+       34.4
+      ],
+      [
+       421.0,
+       32.59
+      ],
+      [
+       427.8,
+       31.17
+      ],
+      [
+       434.6,
+       30.07
+      ],
+      [
+       441.4,
+       29.26
+      ],
+      [
+       448.1,
+       28.77
+      ],
+      [
+       454.9,
+       28.57
+      ],
+      [
+       461.7,
+       28.68
+      ],
+      [
+       468.5,
+       29.07
+      ],
+      [
+       475.3,
+       29.78
+      ],
+      [
+       482.1,
+       30.79
+      ],
+      [
+       488.9,
+       32.1
+      ],
+      [
+       495.6,
+       33.74
+      ],
+      [
+       502.4,
+       35.71
+      ]
+     ]
+    }
+   },
+   "A": {
+    "G": 689.9,
+    "stop_x": 771.0,
+    "shape": "curved",
+    "rest_x": 724.9,
+    "groove": [
+     [
+      689.9,
+      0.0
+     ],
+     [
+      696.65,
+      -1.41
+     ],
+     [
+      703.41,
+      -2.5
+     ],
+     [
+      710.16,
+      -3.3
+     ],
+     [
+      716.92,
+      -3.79
+     ],
+     [
+      723.67,
+      -4.0
+     ],
+     [
+      730.43,
+      -3.9
+     ],
+     [
+      737.19,
+      -3.51
+     ],
+     [
+      743.94,
+      -2.83
+     ],
+     [
+      750.7,
+      -1.84
+     ],
+     [
+      757.45,
+      -0.55
+     ],
+     [
+      764.21,
+      1.06
+     ],
+     [
+      770.96,
+      3.0
+     ]
+    ],
+    "groove_r": 155.1,
+    "lanes": {
+     "F": [
+      [
+       662.0,
+       36.9
+      ],
+      [
+       671.3,
+       31.1
+      ],
+      [
+       680.6,
+       27.4
+      ],
+      [
+       689.9,
+       25.67
+      ],
+      [
+       696.6,
+       24.26
+      ],
+      [
+       703.4,
+       23.16
+      ],
+      [
+       710.2,
+       22.36
+      ],
+      [
+       716.9,
+       21.87
+      ],
+      [
+       723.7,
+       21.66
+      ],
+      [
+       730.4,
+       21.76
+      ],
+      [
+       737.2,
+       22.15
+      ],
+      [
+       743.9,
+       22.83
+      ],
+      [
+       750.7,
+       23.83
+      ],
+      [
+       757.5,
+       25.12
+      ],
+      [
+       764.2,
+       26.74
+      ],
+      [
+       771.0,
+       28.69
+      ]
+     ],
+     "B": [
+      [
+       665.8,
+       41.3
+      ],
+      [
+       673.9,
+       36.8
+      ],
+      [
+       681.9,
+       34.0
+      ],
+      [
+       689.9,
+       32.59
+      ],
+      [
+       696.6,
+       31.17
+      ],
+      [
+       703.4,
+       30.08
+      ],
+      [
+       710.2,
+       29.27
+      ],
+      [
+       716.9,
+       28.78
+      ],
+      [
+       723.7,
+       28.57
+      ],
+      [
+       730.4,
+       28.67
+      ],
+      [
+       737.2,
+       29.06
+      ],
+      [
+       743.9,
+       29.75
+      ],
+      [
+       750.7,
+       30.74
+      ],
+      [
+       757.5,
+       32.03
+      ],
+      [
+       764.2,
+       33.65
+      ],
+      [
+       771.0,
+       35.6
+      ]
+     ]
+    }
+   },
+   "B": {
+    "G": 888.9,
+    "stop_x": 974.0,
+    "shape": "curved",
+    "rest_x": 923.9,
+    "groove": [
+     [
+      888.9,
+      0.0
+     ],
+     [
+      895.99,
+      -1.47
+     ],
+     [
+      903.08,
+      -2.6
+     ],
+     [
+      910.17,
+      -3.39
+     ],
+     [
+      917.26,
+      -3.86
+     ],
+     [
+      924.35,
+      -4.0
+     ],
+     [
+      931.43,
+      -3.82
+     ],
+     [
+      938.52,
+      -3.31
+     ],
+     [
+      945.61,
+      -2.47
+     ],
+     [
+      952.7,
+      -1.3
+     ],
+     [
+      959.79,
+      0.21
+     ],
+     [
+      966.88,
+      2.07
+     ],
+     [
+      973.97,
+      4.3
+     ]
+    ],
+    "groove_r": 155.1,
+    "lanes": {
+     "F": [
+      [
+       782.5,
+       86.3
+      ],
+      [
+       788.5,
+       85.0
+      ],
+      [
+       794.5,
+       82.4
+      ],
+      [
+       858.9,
+       35.6
+      ],
+      [
+       868.9,
+       30.5
+      ],
+      [
+       878.9,
+       27.3
+      ],
+      [
+       888.9,
+       25.67
+      ],
+      [
+       896.0,
+       24.2
+      ],
+      [
+       903.1,
+       23.06
+      ],
+      [
+       910.2,
+       22.27
+      ],
+      [
+       917.3,
+       21.8
+      ],
+      [
+       924.4,
+       21.66
+      ],
+      [
+       931.4,
+       21.84
+      ],
+      [
+       938.5,
+       22.35
+      ],
+      [
+       945.6,
+       23.2
+      ],
+      [
+       952.7,
+       24.37
+      ],
+      [
+       959.8,
+       25.89
+      ],
+      [
+       966.9,
+       27.75
+      ],
+      [
+       974.0,
+       29.99
+      ]
+     ],
+     "B": [
+      [
+       782.5,
+       86.3
+      ],
+      [
+       788.5,
+       85.0
+      ],
+      [
+       794.5,
+       82.4
+      ],
+      [
+       849.4,
+       42.5
+      ],
+      [
+       859.4,
+       37.4
+      ],
+      [
+       869.4,
+       34.2
+      ],
+      [
+       879.4,
+       32.6
+      ],
+      [
+       888.9,
+       32.59
+      ],
+      [
+       896.0,
+       31.11
+      ],
+      [
+       903.1,
+       29.98
+      ],
+      [
+       910.2,
+       29.18
+      ],
+      [
+       917.3,
+       28.71
+      ],
+      [
+       924.4,
+       28.57
+      ],
+      [
+       931.4,
+       28.75
+      ],
+      [
+       938.5,
+       29.26
+      ],
+      [
+       945.6,
+       30.11
+      ],
+      [
+       952.7,
+       31.28
+      ],
+      [
+       959.8,
+       32.8
+      ],
+      [
+       966.9,
+       34.66
+      ],
+      [
+       974.0,
+       36.9
+      ]
+     ]
+    }
+   },
+   "note": "ผิวบนของทางลง (แผ่นรับ/ทางลาดตายตัว) ที่กึ่งกลางเลน [x, z] จนถึงผิวโฟมกันชน ; G = ร่องที่แนบพื้น ; shape = curved (ร่องเว้า) | straight (ผนังโฟมตรง) ; rest_x = X กึ่งกลางไข่ที่พักในแอ่ง (แกนยาวขนาน Y) ; groove = หน้าตัดร่อง [x, ความสูงเทียบพื้นเดิม] จาก G ถึง stop_x (ร่องต่อยาวถึงถาดหน้า ความชันเท่าพื้นเดิม)"
+  },
+  "version": "2026-11-17"
+ },
+ "materials": {
+  "base": {
+   "color": "#d9dde2",
+   "opacity": 1.0,
+   "roughness": 0.8
+  },
+  "acrylic_clear": {
+   "color": "#dbe8f2",
+   "opacity": 0.28,
+   "roughness": 0.05,
+   "note": "อะคริลิกใส"
+  },
+  "acrylic_black": {
+   "color": "#1c1d22",
+   "opacity": 0.45,
+   "roughness": 0.2,
+   "note": "อะคริลิกดำทึบ (โปร่งแสงในโมเดลเพื่อให้เห็นข้างใน ปรับ opacity=1 ได้)"
+  },
+  "acrylic_white": {
+   "color": "#f1f2f4",
+   "opacity": 1.0,
+   "roughness": 0.5
+  },
+  "printed": {
+   "color": "#e07b39",
+   "opacity": 1.0,
+   "roughness": 0.6,
+   "note": "ชิ้นพิมพ์ 3D (PETG)"
+  },
+  "silicone": {
+   "color": "#8f969e",
+   "opacity": 1.0,
+   "roughness": 0.9,
+   "note": "ลูกกลิ้งหุ้มยาง"
+  },
+  "metal": {
+   "color": "#b8bcc2",
+   "opacity": 1.0,
+   "metalness": 0.8,
+   "roughness": 0.3
+  },
+  "load_cell": {
+   "color": "#c9cdd2",
+   "opacity": 1.0,
+   "metalness": 0.7,
+   "roughness": 0.35
+  },
+  "servo": {
+   "color": "#26282e",
+   "opacity": 1.0,
+   "roughness": 0.5
+  },
+  "motor": {
+   "color": "#c7a76b",
+   "opacity": 1.0,
+   "metalness": 0.6,
+   "roughness": 0.4
+  },
+  "pcb_green": {
+   "color": "#1f6f3a",
+   "opacity": 1.0,
+   "roughness": 0.6
+  },
+  "pcb_blue": {
+   "color": "#1d4fa0",
+   "opacity": 1.0,
+   "roughness": 0.6
+  },
+  "pcb_black": {
+   "color": "#202020",
+   "opacity": 1.0,
+   "roughness": 0.6
+  },
+  "psu": {
+   "color": "#9ea3a8",
+   "opacity": 1.0,
+   "metalness": 0.6,
+   "roughness": 0.4
+  },
+  "sensor": {
+   "color": "#111111",
+   "opacity": 1.0,
+   "roughness": 0.6
+  },
+  "led": {
+   "color": "#ffffff",
+   "opacity": 1.0,
+   "emissive": "#fff6e0",
+   "emissiveIntensity": 1.5
+  },
+  "screen_body": {
+   "color": "#0d0d0f",
+   "opacity": 1.0,
+   "roughness": 0.3
+  },
+  "screen_face": {
+   "color": "#123a6b",
+   "opacity": 1.0,
+   "emissive": "#1e5aa8",
+   "emissiveIntensity": 0.6
+  },
+  "button_red": {
+   "color": "#d32f2f",
+   "opacity": 1.0,
+   "emissive": "#ff3b30",
+   "emissiveIntensity": 0.4
+  },
+  "button_green": {
+   "color": "#2e9d3a",
+   "opacity": 1.0,
+   "emissive": "#2ecc40",
+   "emissiveIntensity": 0.4
+  },
+  "eva_reject": {
+   "color": "#b8483a",
+   "opacity": 1.0,
+   "roughness": 0.95,
+   "note": "โฟม EVA ถาดเสีย"
+  },
+  "eva_A": {
+   "color": "#3a7bd5",
+   "opacity": 1.0,
+   "roughness": 0.95,
+   "note": "โฟม EVA ถาด A"
+  },
+  "eva_B": {
+   "color": "#3aa66b",
+   "opacity": 1.0,
+   "roughness": 0.95,
+   "note": "โฟม EVA ถาด B"
+  },
+  "egg": {
+   "color": "#f1e3cf",
+   "opacity": 1.0,
+   "roughness": 0.7
+  }
+ },
+ "parts": [
+  {
+   "id": "base.plate",
+   "module": "base",
+   "name": "แผ่นฐาน",
+   "shape": "box",
+   "min": [
+    0,
+    -130,
+    0
+   ],
+   "max": [
+    985.0,
+    163.0,
+    5
+   ],
+   "material": "base"
+  },
+  {
+   "id": "bay.wall.front",
+   "module": "input",
+   "name": "ผนังหน้าช่องอิเล็กทรอนิกส์ (แผงปุ่ม)",
+   "shape": "box",
+   "min": [
+    0,
+    0,
+    5
+   ],
+   "max": [
+    180,
+    3,
+    118
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "bay.wall.back",
+   "module": "input",
+   "name": "ผนังหลังช่องอิเล็กทรอนิกส์",
+   "shape": "box",
+   "min": [
+    0,
+    160.0,
+    5
+   ],
+   "max": [
+    180,
+    163.0,
+    118
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "bay.wall.left",
+   "module": "input",
+   "name": "ผนังซ้ายช่องอิเล็กทรอนิกส์",
+   "shape": "box",
+   "min": [
+    0,
+    3,
+    5
+   ],
+   "max": [
+    3,
+    160.0,
+    118
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "bay.wall.right",
+   "module": "input",
+   "name": "ผนังขวาช่องอิเล็กทรอนิกส์",
+   "shape": "box",
+   "min": [
+    177,
+    3,
+    5
+   ],
+   "max": [
+    180,
+    160.0,
+    118
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "tray.floor",
+   "module": "input",
+   "name": "พื้นถาดป้อน เอียง 6°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     5,
+     141.8
+    ],
+    [
+     180,
+     123.4
+    ],
+    [
+     180,
+     118.4
+    ],
+    [
+     5,
+     136.8
+    ]
+   ],
+   "extrude": [
+    5,
+    158.0
+   ],
+   "material": "acrylic_clear",
+   "note": "เจาะร่อง 8×20 มม. ให้หมุดก้ามปู escapement เลนละ 4 ร่อง (กลางเลน ±13 มม.) ที่ X 118.5 และ 168 ร่อง P2 ยาวพอให้ปรับ P2 ได้ X 114–124"
+  },
+  {
+   "id": "tray.wall.front",
+   "module": "input",
+   "name": "ผนังหน้าถาดป้อน (สูงจากพื้น 18)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     0,
+     118
+    ],
+    [
+     180,
+     118
+    ],
+    [
+     180,
+     141.4
+    ],
+    [
+     0,
+     160.3
+    ]
+   ],
+   "extrude": [
+    0,
+    5
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "tray.wall.back",
+   "module": "input",
+   "name": "ผนังหลังถาดป้อน (สูงจากพื้น 45)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     0,
+     118
+    ],
+    [
+     180,
+     118
+    ],
+    [
+     180,
+     168.4
+    ],
+    [
+     0,
+     187.3
+    ]
+   ],
+   "extrude": [
+    158.0,
+    163.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "tray.wall.mid",
+   "module": "input",
+   "name": "ผนังกลางถาดป้อน",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     5,
+     141.8
+    ],
+    [
+     180,
+     123.4
+    ],
+    [
+     180,
+     148.4
+    ],
+    [
+     5,
+     166.8
+    ]
+   ],
+   "extrude": [
+    79.0,
+    84.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "tray.wall.end",
+   "module": "input",
+   "name": "ผนังปิดท้ายถาดป้อน",
+   "shape": "box",
+   "min": [
+    0,
+    5,
+    118
+   ],
+   "max": [
+    5,
+    158.0,
+    160.3
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "esc.F.rocker",
+   "module": "input",
+   "name": "คานกระดก escapement เลนหน้า (คานกลางของตัว H)",
+   "shape": "box",
+   "min": [
+    127.0,
+    39.0,
+    105.5
+   ],
+   "max": [
+    166.5,
+    45.0,
+    110.5
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "esc.F.rocker.barP2",
+   "module": "input",
+   "name": "คานขวางรับหมุดคู่ P2 (ร่องปรับ X 114–124)",
+   "shape": "box",
+   "min": [
+    111.0,
+    26.0,
+    105.5
+   ],
+   "max": [
+    127.0,
+    58.0,
+    110.5
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "esc.F.rocker.barP1",
+   "module": "input",
+   "name": "คานขวางรับหมุดคู่ P1",
+   "shape": "box",
+   "min": [
+    166.5,
+    26.0,
+    105.5
+   ],
+   "max": [
+    171.0,
+    58.0,
+    110.5
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "esc.F.pinP2a",
+   "module": "input",
+   "name": "หมุด P2 (ประตูหลัง) ฝั่งหน้า",
+   "shape": "cylinder",
+   "center": [
+    118.5,
+    29.0,
+    123.7
+   ],
+   "radius": 3.0,
+   "length": 26.363910468839094,
+   "axis": "z",
+   "material": "metal"
+  },
+  {
+   "id": "esc.F.pinP2b",
+   "module": "input",
+   "name": "หมุด P2 (ประตูหลัง) ฝั่งหลัง",
+   "shape": "cylinder",
+   "center": [
+    118.5,
+    55.0,
+    123.7
+   ],
+   "radius": 3.0,
+   "length": 26.363910468839094,
+   "axis": "z",
+   "material": "metal"
+  },
+  {
+   "id": "esc.F.pinP1a",
+   "module": "input",
+   "name": "หมุด P1 (ประตูหน้า) ฝั่งหน้า",
+   "shape": "cylinder",
+   "center": [
+    168.0,
+    29.0,
+    121.1
+   ],
+   "radius": 3.0,
+   "length": 21.16125082318814,
+   "axis": "z",
+   "material": "metal"
+  },
+  {
+   "id": "esc.F.pinP1b",
+   "module": "input",
+   "name": "หมุด P1 (ประตูหน้า) ฝั่งหลัง",
+   "shape": "cylinder",
+   "center": [
+    168.0,
+    55.0,
+    121.1
+   ],
+   "radius": 3.0,
+   "length": 21.16125082318814,
+   "axis": "z",
+   "material": "metal"
+  },
+  {
+   "id": "esc.F.servo",
+   "module": "input",
+   "name": "เซอร์โว escapement",
+   "shape": "box",
+   "min": [
+    137.2,
+    49.0,
+    101.9
+   ],
+   "max": [
+    160.1,
+    71.7,
+    114.1
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "esc.B.rocker",
+   "module": "input",
+   "name": "คานกระดก escapement เลนหลัง (คานกลางของตัว H)",
+   "shape": "box",
+   "min": [
+    127.0,
+    118.0,
+    105.5
+   ],
+   "max": [
+    166.5,
+    124.0,
+    110.5
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "esc.B.rocker.barP2",
+   "module": "input",
+   "name": "คานขวางรับหมุดคู่ P2 (ร่องปรับ X 114–124)",
+   "shape": "box",
+   "min": [
+    111.0,
+    105.0,
+    105.5
+   ],
+   "max": [
+    127.0,
+    137.0,
+    110.5
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "esc.B.rocker.barP1",
+   "module": "input",
+   "name": "คานขวางรับหมุดคู่ P1",
+   "shape": "box",
+   "min": [
+    166.5,
+    105.0,
+    105.5
+   ],
+   "max": [
+    171.0,
+    137.0,
+    110.5
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "esc.B.pinP2a",
+   "module": "input",
+   "name": "หมุด P2 (ประตูหลัง) ฝั่งหน้า",
+   "shape": "cylinder",
+   "center": [
+    118.5,
+    108.0,
+    123.7
+   ],
+   "radius": 3.0,
+   "length": 26.363910468839094,
+   "axis": "z",
+   "material": "metal"
+  },
+  {
+   "id": "esc.B.pinP2b",
+   "module": "input",
+   "name": "หมุด P2 (ประตูหลัง) ฝั่งหลัง",
+   "shape": "cylinder",
+   "center": [
+    118.5,
+    134.0,
+    123.7
+   ],
+   "radius": 3.0,
+   "length": 26.363910468839094,
+   "axis": "z",
+   "material": "metal"
+  },
+  {
+   "id": "esc.B.pinP1a",
+   "module": "input",
+   "name": "หมุด P1 (ประตูหน้า) ฝั่งหน้า",
+   "shape": "cylinder",
+   "center": [
+    168.0,
+    108.0,
+    121.1
+   ],
+   "radius": 3.0,
+   "length": 21.16125082318814,
+   "axis": "z",
+   "material": "metal"
+  },
+  {
+   "id": "esc.B.pinP1b",
+   "module": "input",
+   "name": "หมุด P1 (ประตูหน้า) ฝั่งหลัง",
+   "shape": "cylinder",
+   "center": [
+    168.0,
+    134.0,
+    121.1
+   ],
+   "radius": 3.0,
+   "length": 21.16125082318814,
+   "axis": "z",
+   "material": "metal"
+  },
+  {
+   "id": "esc.B.servo",
+   "module": "input",
+   "name": "เซอร์โว escapement",
+   "shape": "box",
+   "min": [
+    137.2,
+    128.0,
+    101.9
+   ],
+   "max": [
+    160.1,
+    150.7,
+    114.1
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "btn.estop.bezel",
+   "module": "input",
+   "name": "E-STOP ขอบ",
+   "shape": "cylinder",
+   "center": [
+    150,
+    -3,
+    75
+   ],
+   "radius": 13,
+   "length": 6,
+   "axis": "y",
+   "material": "metal"
+  },
+  {
+   "id": "btn.estop.cap",
+   "module": "input",
+   "name": "E-STOP ปุ่มมีไฟ",
+   "shape": "cylinder",
+   "center": [
+    150,
+    -9,
+    75
+   ],
+   "radius": 10,
+   "length": 6,
+   "axis": "y",
+   "material": "button_red"
+  },
+  {
+   "id": "btn.start.bezel",
+   "module": "input",
+   "name": "START/PAUSE ขอบ",
+   "shape": "cylinder",
+   "center": [
+    95,
+    -3,
+    75
+   ],
+   "radius": 13,
+   "length": 6,
+   "axis": "y",
+   "material": "metal"
+  },
+  {
+   "id": "btn.start.cap",
+   "module": "input",
+   "name": "START/PAUSE ปุ่มมีไฟ",
+   "shape": "cylinder",
+   "center": [
+    95,
+    -9,
+    75
+   ],
+   "radius": 10,
+   "length": 6,
+   "axis": "y",
+   "material": "button_green"
+  },
+  {
+   "id": "bay.psu.case",
+   "module": "input",
+   "name": "ครอบ PSU",
+   "shape": "box",
+   "min": [
+    7,
+    74.0,
+    5
+   ],
+   "max": [
+    123,
+    158.0,
+    46
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "bay.psu",
+   "module": "input",
+   "name": "PSU 12V 5A (110×78×38)",
+   "shape": "box",
+   "min": [
+    10,
+    77.0,
+    5
+   ],
+   "max": [
+    120,
+    155.0,
+    43
+   ],
+   "material": "psu"
+  },
+  {
+   "id": "bay.shelf",
+   "module": "input",
+   "name": "ชั้นวางบอร์ด",
+   "shape": "box",
+   "min": [
+    5,
+    50,
+    47
+   ],
+   "max": [
+    175,
+    158.0,
+    50
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "bay.board.esp32",
+   "module": "input",
+   "name": "ESP32 DevKit",
+   "shape": "box",
+   "min": [
+    20,
+    60,
+    50
+   ],
+   "max": [
+    75,
+    88,
+    63
+   ],
+   "material": "pcb_black"
+  },
+  {
+   "id": "bay.board.pca9685",
+   "module": "input",
+   "name": "PCA9685",
+   "shape": "box",
+   "min": [
+    85,
+    60,
+    50
+   ],
+   "max": [
+    147,
+    86,
+    56
+   ],
+   "material": "pcb_blue"
+  },
+  {
+   "id": "bay.board.tb6612",
+   "module": "input",
+   "name": "TB6612FNG",
+   "shape": "box",
+   "min": [
+    90,
+    100,
+    50
+   ],
+   "max": [
+    112,
+    120,
+    56
+   ],
+   "material": "pcb_green"
+  },
+  {
+   "id": "bay.board.buck",
+   "module": "input",
+   "name": "Buck 12→5V 5A",
+   "shape": "box",
+   "min": [
+    20,
+    100,
+    50
+   ],
+   "max": [
+    80,
+    125,
+    70
+   ],
+   "material": "pcb_blue"
+  },
+  {
+   "id": "bay.board.mosfet",
+   "module": "input",
+   "name": "MOSFET ×4",
+   "shape": "box",
+   "min": [
+    120,
+    100,
+    50
+   ],
+   "max": [
+    160,
+    135,
+    56
+   ],
+   "material": "pcb_green"
+  },
+  {
+   "id": "bay.iec",
+   "module": "input",
+   "name": "ขั้วไฟ AC IEC C14",
+   "shape": "box",
+   "min": [
+    20,
+    163.0,
+    25
+   ],
+   "max": [
+    48,
+    175.0,
+    55
+   ],
+   "material": "pcb_black"
+  },
+  {
+   "id": "ai.wall.left.low",
+   "module": "ai",
+   "name": "ผนังซ้ายตู้ AI (ล่าง)",
+   "shape": "box",
+   "min": [
+    180,
+    0,
+    5
+   ],
+   "max": [
+    183,
+    163.0,
+    118
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.left.top",
+   "module": "ai",
+   "name": "ผนังซ้ายตู้ AI (บน)",
+   "shape": "box",
+   "min": [
+    180,
+    0,
+    180
+   ],
+   "max": [
+    183,
+    163.0,
+    230
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.left.post.f",
+   "module": "ai",
+   "name": "เสาผนังซ้ายตู้ AI",
+   "shape": "box",
+   "min": [
+    180,
+    0,
+    118
+   ],
+   "max": [
+    183,
+    5,
+    180
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.left.post.m",
+   "module": "ai",
+   "name": "เสาผนังซ้ายตู้ AI",
+   "shape": "box",
+   "min": [
+    180,
+    79.0,
+    118
+   ],
+   "max": [
+    183,
+    84.0,
+    180
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.left.post.b",
+   "module": "ai",
+   "name": "เสาผนังซ้ายตู้ AI",
+   "shape": "box",
+   "min": [
+    180,
+    158.0,
+    118
+   ],
+   "max": [
+    183,
+    163.0,
+    180
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.right.post.f",
+   "module": "ai",
+   "name": "เสาผนังขวาตู้ AI",
+   "shape": "box",
+   "min": [
+    315,
+    0,
+    5
+   ],
+   "max": [
+    318,
+    5,
+    170
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.right.post.m",
+   "module": "ai",
+   "name": "เสาผนังขวาตู้ AI",
+   "shape": "box",
+   "min": [
+    315,
+    79.0,
+    5
+   ],
+   "max": [
+    318,
+    84.0,
+    170
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.right.post.b",
+   "module": "ai",
+   "name": "เสาผนังขวาตู้ AI",
+   "shape": "box",
+   "min": [
+    315,
+    158.0,
+    5
+   ],
+   "max": [
+    318,
+    163.0,
+    170
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.right.low.F",
+   "module": "ai",
+   "name": "ผนังขวาตู้ AI (ล่าง เลนหน้า)",
+   "shape": "box",
+   "min": [
+    315,
+    5.0,
+    5
+   ],
+   "max": [
+    318,
+    79.0,
+    76
+   ],
+   "material": "acrylic_black",
+   "note": "ช่องเหนือแผ่นนี้คือทางที่บาน F1 กวาดผ่าน ติดม่านยาง/แปรงกันแสง (ไม่ได้ขึ้นรูปทรง)"
+  },
+  {
+   "id": "ai.wall.right.low.B",
+   "module": "ai",
+   "name": "ผนังขวาตู้ AI (ล่าง เลนหลัง)",
+   "shape": "box",
+   "min": [
+    315,
+    84.0,
+    5
+   ],
+   "max": [
+    318,
+    158.0,
+    79
+   ],
+   "material": "acrylic_black",
+   "note": "ช่องเหนือแผ่นนี้คือทางที่บาน F1 กวาดผ่าน ติดม่านยาง/แปรงกันแสง (ไม่ได้ขึ้นรูปทรง)"
+  },
+  {
+   "id": "ai.wall.right.top",
+   "module": "ai",
+   "name": "ผนังขวาตู้ AI (บน)",
+   "shape": "box",
+   "min": [
+    315,
+    0,
+    170
+   ],
+   "max": [
+    318,
+    163.0,
+    230
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.front.a",
+   "module": "ai",
+   "name": "ผนังหน้าตู้ AI (ล่าง ปิดเต็ม)",
+   "shape": "box",
+   "min": [
+    183,
+    0,
+    5
+   ],
+   "max": [
+    315,
+    3,
+    150
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.front.window",
+   "module": "ai",
+   "name": "ฝาหน้าตู้ AI ส่วนบน (ถอดได้)",
+   "shape": "box",
+   "min": [
+    180,
+    0,
+    150
+   ],
+   "max": [
+    318,
+    3,
+    230
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.wall.back",
+   "module": "ai",
+   "name": "ผนังหลังตู้ AI",
+   "shape": "box",
+   "min": [
+    183,
+    160.0,
+    5
+   ],
+   "max": [
+    315,
+    163.0,
+    230
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.roof",
+   "module": "ai",
+   "name": "หลังคาตู้ AI 5 มม.",
+   "shape": "box",
+   "min": [
+    180,
+    0,
+    230
+   ],
+   "max": [
+    318,
+    163.0,
+    235
+   ],
+   "material": "acrylic_black",
+   "note": "เจาะช่องกล้องและช่องสาย 20×5"
+  },
+  {
+   "id": "ai.divider",
+   "module": "ai",
+   "name": "ผนังกลางเหนือลูกกลิ้ง",
+   "shape": "box",
+   "min": [
+    183,
+    79.0,
+    118
+   ],
+   "max": [
+    315,
+    84.0,
+    148
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.f1.bearing",
+   "module": "ai",
+   "name": "บล็อกลูกปืนแกน F1 (กลาง ที่บานพับ)",
+   "shape": "box",
+   "min": [
+    263.0,
+    79.0,
+    105.0
+   ],
+   "max": [
+    273.0,
+    84.0,
+    117.0
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "ai.led.top.1",
+   "module": "ai",
+   "name": "LED บน",
+   "shape": "box",
+   "min": [
+    195,
+    28.0,
+    226
+   ],
+   "max": [
+    300,
+    38.0,
+    229
+   ],
+   "material": "led"
+  },
+  {
+   "id": "ai.led.top.2",
+   "module": "ai",
+   "name": "LED บน",
+   "shape": "box",
+   "min": [
+    195,
+    125.0,
+    226
+   ],
+   "max": [
+    300,
+    135.0,
+    229
+   ],
+   "material": "led"
+  },
+  {
+   "id": "ai.led.top.3",
+   "module": "ai",
+   "name": "LED บน",
+   "shape": "box",
+   "min": [
+    195,
+    38.0,
+    226
+   ],
+   "max": [
+    205,
+    125.0,
+    229
+   ],
+   "material": "led"
+  },
+  {
+   "id": "ai.led.top.4",
+   "module": "ai",
+   "name": "LED บน",
+   "shape": "box",
+   "min": [
+    290,
+    38.0,
+    226
+   ],
+   "max": [
+    300,
+    125.0,
+    229
+   ],
+   "material": "led"
+  },
+  {
+   "id": "ai.camera",
+   "module": "ai",
+   "name": "Pi Camera Module 3 Wide",
+   "shape": "box",
+   "min": [
+    228,
+    69.0,
+    217.6
+   ],
+   "max": [
+    252,
+    94.0,
+    230
+   ],
+   "material": "pcb_green"
+  },
+  {
+   "id": "ai.camera.lens",
+   "module": "ai",
+   "name": "เลนส์กล้อง",
+   "shape": "cylinder",
+   "center": [
+    240,
+    81.5,
+    216.6
+   ],
+   "radius": 4.5,
+   "length": 2,
+   "axis": "z",
+   "material": "sensor"
+  },
+  {
+   "id": "ai.F.ramp",
+   "module": "ai",
+   "name": "ทางลาดเข้าตู้ AI เลนหน้า",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     183,
+     123.1
+    ],
+    [
+     206,
+     119.0
+    ],
+    [
+     206,
+     116.0
+    ],
+    [
+     183,
+     120.1
+    ]
+   ],
+   "extrude": [
+    5.0,
+    79.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.F.roller1",
+   "module": "ai",
+   "name": "ลูกกลิ้ง 1 (ขับด้วย N20)",
+   "shape": "cylinder",
+   "center": [
+    216,
+    42.0,
+    108.0
+   ],
+   "radius": 10,
+   "length": 71.0,
+   "axis": "y",
+   "material": "silicone"
+  },
+  {
+   "id": "ai.F.roller2",
+   "module": "ai",
+   "name": "ลูกกลิ้ง 2 (หมุนฟรี)",
+   "shape": "cylinder",
+   "center": [
+    254,
+    42.0,
+    108.0
+   ],
+   "radius": 10,
+   "length": 71.0,
+   "axis": "y",
+   "material": "silicone"
+  },
+  {
+   "id": "ai.F.shaft1",
+   "module": "ai",
+   "name": "เพลาลูกกลิ้ง 1",
+   "shape": "cylinder",
+   "center": [
+    216,
+    39.5,
+    108.0
+   ],
+   "radius": 2,
+   "length": 79.0,
+   "axis": "y",
+   "material": "metal"
+  },
+  {
+   "id": "ai.F.shaft2",
+   "module": "ai",
+   "name": "เพลาลูกกลิ้ง 2",
+   "shape": "cylinder",
+   "center": [
+    254,
+    41.0,
+    108.0
+   ],
+   "radius": 2,
+   "length": 76.0,
+   "axis": "y",
+   "material": "metal"
+  },
+  {
+   "id": "ai.F.n20",
+   "module": "ai",
+   "name": "มอเตอร์ N20 เลนหน้า",
+   "shape": "box",
+   "min": [
+    210,
+    -25,
+    102
+   ],
+   "max": [
+    222,
+    0,
+    114
+   ],
+   "material": "motor"
+  },
+  {
+   "id": "ai.F.k0.bar",
+   "module": "ai",
+   "name": "K0 คานล่าง",
+   "shape": "box",
+   "min": [
+    228,
+    21.5,
+    63
+   ],
+   "max": [
+    234,
+    62.5,
+    66
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "ai.F.k0.prong1",
+   "module": "ai",
+   "name": "K0 นิ้วดัน",
+   "shape": "box",
+   "min": [
+    228,
+    21.5,
+    66
+   ],
+   "max": [
+    234,
+    26.5,
+    96
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "ai.F.k0.prong2",
+   "module": "ai",
+   "name": "K0 นิ้วดัน",
+   "shape": "box",
+   "min": [
+    228,
+    57.5,
+    66
+   ],
+   "max": [
+    234,
+    62.5,
+    96
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "ai.F.k0.link",
+   "module": "ai",
+   "name": "K0 ก้านต่อเซอร์โว",
+   "shape": "box",
+   "min": [
+    213,
+    53.4,
+    63
+   ],
+   "max": [
+    228,
+    55.4,
+    66
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "ai.F.k0.guide1",
+   "module": "ai",
+   "name": "รางนำ K0",
+   "shape": "box",
+   "min": [
+    222,
+    18.0,
+    5
+   ],
+   "max": [
+    240,
+    21.0,
+    97
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.F.k0.guide2",
+   "module": "ai",
+   "name": "รางนำ K0",
+   "shape": "box",
+   "min": [
+    222,
+    63.0,
+    5
+   ],
+   "max": [
+    240,
+    66.0,
+    97
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.F.k0.servo",
+   "module": "ai",
+   "name": "เซอร์โว K0",
+   "shape": "box",
+   "min": [
+    196.2,
+    30.6,
+    63.9
+   ],
+   "max": [
+    219,
+    53.3,
+    76.1
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "ai.F.led.post",
+   "module": "ai",
+   "name": "เสาไฟส่องล่าง",
+   "shape": "box",
+   "min": [
+    236,
+    40.0,
+    5
+   ],
+   "max": [
+    240,
+    44.0,
+    92
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.F.led.candle",
+   "module": "ai",
+   "name": "COB LED ส่องล่าง",
+   "shape": "cylinder",
+   "center": [
+    238,
+    42.0,
+    94
+   ],
+   "radius": 10,
+   "length": 4,
+   "axis": "z",
+   "material": "led"
+  },
+  {
+   "id": "ai.F.f1",
+   "module": "ai",
+   "name": "บาน F1 135×68 (บานพับฝั่งซ้าย ติดลูกกลิ้ง 2)",
+   "shape": "box",
+   "min": [
+    268.0,
+    8.0,
+    114.0
+   ],
+   "max": [
+    403.0,
+    76.0,
+    117.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.F.f1.servo",
+   "module": "ai",
+   "name": "เซอร์โว F1 MG996R",
+   "shape": "box",
+   "min": [
+    258.0,
+    -42.9,
+    107.2
+   ],
+   "max": [
+    298.7,
+    0.0,
+    126.8
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "ai.F.s1.tx",
+   "module": "ai",
+   "name": "S1 ตัวส่ง",
+   "shape": "box",
+   "min": [
+    193,
+    3,
+    138
+   ],
+   "max": [
+    197,
+    7,
+    144
+   ],
+   "material": "sensor"
+  },
+  {
+   "id": "ai.F.s1.rx",
+   "module": "ai",
+   "name": "S1 ตัวรับ",
+   "shape": "box",
+   "min": [
+    193,
+    75.0,
+    138
+   ],
+   "max": [
+    197,
+    79.0,
+    144
+   ],
+   "material": "sensor"
+  },
+  {
+   "id": "ai.B.ramp",
+   "module": "ai",
+   "name": "ทางลาดเข้าตู้ AI เลนหลัง",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     183,
+     123.1
+    ],
+    [
+     206,
+     119.0
+    ],
+    [
+     206,
+     116.0
+    ],
+    [
+     183,
+     120.1
+    ]
+   ],
+   "extrude": [
+    84.0,
+    158.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.B.roller1",
+   "module": "ai",
+   "name": "ลูกกลิ้ง 1 (ขับด้วย N20)",
+   "shape": "cylinder",
+   "center": [
+    216,
+    121.0,
+    108.0
+   ],
+   "radius": 10,
+   "length": 71.0,
+   "axis": "y",
+   "material": "silicone"
+  },
+  {
+   "id": "ai.B.roller2",
+   "module": "ai",
+   "name": "ลูกกลิ้ง 2 (หมุนฟรี)",
+   "shape": "cylinder",
+   "center": [
+    254,
+    121.0,
+    108.0
+   ],
+   "radius": 10,
+   "length": 71.0,
+   "axis": "y",
+   "material": "silicone"
+  },
+  {
+   "id": "ai.B.shaft1",
+   "module": "ai",
+   "name": "เพลาลูกกลิ้ง 1",
+   "shape": "cylinder",
+   "center": [
+    216,
+    123.5,
+    108.0
+   ],
+   "radius": 2,
+   "length": 79.0,
+   "axis": "y",
+   "material": "metal"
+  },
+  {
+   "id": "ai.B.shaft2",
+   "module": "ai",
+   "name": "เพลาลูกกลิ้ง 2",
+   "shape": "cylinder",
+   "center": [
+    254,
+    122.0,
+    108.0
+   ],
+   "radius": 2,
+   "length": 76.0,
+   "axis": "y",
+   "material": "metal"
+  },
+  {
+   "id": "ai.B.n20",
+   "module": "ai",
+   "name": "มอเตอร์ N20 เลนหลัง",
+   "shape": "box",
+   "min": [
+    210,
+    163.0,
+    102
+   ],
+   "max": [
+    222,
+    188.0,
+    114
+   ],
+   "material": "motor"
+  },
+  {
+   "id": "ai.B.k0.bar",
+   "module": "ai",
+   "name": "K0 คานล่าง",
+   "shape": "box",
+   "min": [
+    228,
+    100.5,
+    63
+   ],
+   "max": [
+    234,
+    141.5,
+    66
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "ai.B.k0.prong1",
+   "module": "ai",
+   "name": "K0 นิ้วดัน",
+   "shape": "box",
+   "min": [
+    228,
+    100.5,
+    66
+   ],
+   "max": [
+    234,
+    105.5,
+    96
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "ai.B.k0.prong2",
+   "module": "ai",
+   "name": "K0 นิ้วดัน",
+   "shape": "box",
+   "min": [
+    228,
+    136.5,
+    66
+   ],
+   "max": [
+    234,
+    141.5,
+    96
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "ai.B.k0.link",
+   "module": "ai",
+   "name": "K0 ก้านต่อเซอร์โว",
+   "shape": "box",
+   "min": [
+    213,
+    132.4,
+    63
+   ],
+   "max": [
+    228,
+    134.4,
+    66
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "ai.B.k0.guide1",
+   "module": "ai",
+   "name": "รางนำ K0",
+   "shape": "box",
+   "min": [
+    222,
+    97.0,
+    5
+   ],
+   "max": [
+    240,
+    100.0,
+    97
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.B.k0.guide2",
+   "module": "ai",
+   "name": "รางนำ K0",
+   "shape": "box",
+   "min": [
+    222,
+    142.0,
+    5
+   ],
+   "max": [
+    240,
+    145.0,
+    97
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.B.k0.servo",
+   "module": "ai",
+   "name": "เซอร์โว K0",
+   "shape": "box",
+   "min": [
+    196.2,
+    109.6,
+    63.9
+   ],
+   "max": [
+    219,
+    132.3,
+    76.1
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "ai.B.led.post",
+   "module": "ai",
+   "name": "เสาไฟส่องล่าง",
+   "shape": "box",
+   "min": [
+    236,
+    119.0,
+    5
+   ],
+   "max": [
+    240,
+    123.0,
+    92
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.B.led.candle",
+   "module": "ai",
+   "name": "COB LED ส่องล่าง",
+   "shape": "cylinder",
+   "center": [
+    238,
+    121.0,
+    94
+   ],
+   "radius": 10,
+   "length": 4,
+   "axis": "z",
+   "material": "led"
+  },
+  {
+   "id": "ai.B.f1",
+   "module": "ai",
+   "name": "บาน F1 135×68 (บานพับฝั่งซ้าย ติดลูกกลิ้ง 2)",
+   "shape": "box",
+   "min": [
+    268.0,
+    87.0,
+    114.0
+   ],
+   "max": [
+    403.0,
+    155.0,
+    117.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "ai.B.f1.servo",
+   "module": "ai",
+   "name": "เซอร์โว F1 MG996R",
+   "shape": "box",
+   "min": [
+    258.0,
+    163.0,
+    107.2
+   ],
+   "max": [
+    298.7,
+    205.9,
+    126.8
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "ai.B.s1.tx",
+   "module": "ai",
+   "name": "S1 ตัวส่ง",
+   "shape": "box",
+   "min": [
+    193,
+    84.0,
+    138
+   ],
+   "max": [
+    197,
+    88.0,
+    144
+   ],
+   "material": "sensor"
+  },
+  {
+   "id": "ai.B.s1.rx",
+   "module": "ai",
+   "name": "S1 ตัวรับ",
+   "shape": "box",
+   "min": [
+    193,
+    156.0,
+    138
+   ],
+   "max": [
+    197,
+    160.0,
+    144
+   ],
+   "material": "sensor"
+  },
+  {
+   "id": "sc.deck",
+   "module": "scale",
+   "name": "พื้นกล่องชั่ง (deck ใต้ load cell เท่านั้น)",
+   "shape": "box",
+   "min": [
+    512.0,
+    3,
+    50.9
+   ],
+   "max": [
+    595.5,
+    160.0,
+    55.9
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.leg.00",
+   "module": "scale",
+   "name": "ขาค้ำ deck",
+   "shape": "box",
+   "min": [
+    512.0,
+    3,
+    5
+   ],
+   "max": [
+    517.0,
+    8,
+    50.9
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.leg.01",
+   "module": "scale",
+   "name": "ขาค้ำ deck",
+   "shape": "box",
+   "min": [
+    512.0,
+    155.0,
+    5
+   ],
+   "max": [
+    517.0,
+    160.0,
+    50.9
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.leg.10",
+   "module": "scale",
+   "name": "ขาค้ำ deck",
+   "shape": "box",
+   "min": [
+    590.5,
+    3,
+    5
+   ],
+   "max": [
+    595.5,
+    8,
+    50.9
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.leg.11",
+   "module": "scale",
+   "name": "ขาค้ำ deck",
+   "shape": "box",
+   "min": [
+    590.5,
+    155.0,
+    5
+   ],
+   "max": [
+    595.5,
+    160.0,
+    50.9
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.left.post.f",
+   "module": "scale",
+   "name": "เสาผนังซ้ายกล่องชั่ง",
+   "shape": "box",
+   "min": [
+    318,
+    0,
+    5
+   ],
+   "max": [
+    321,
+    5,
+    170
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.left.post.m",
+   "module": "scale",
+   "name": "เสาผนังซ้ายกล่องชั่ง",
+   "shape": "box",
+   "min": [
+    318,
+    79.0,
+    5
+   ],
+   "max": [
+    321,
+    84.0,
+    170
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.left.post.b",
+   "module": "scale",
+   "name": "เสาผนังซ้ายกล่องชั่ง",
+   "shape": "box",
+   "min": [
+    318,
+    158.0,
+    5
+   ],
+   "max": [
+    321,
+    163.0,
+    170
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.left.low.F",
+   "module": "scale",
+   "name": "ผนังซ้ายกล่องชั่ง (ล่าง เลนหน้า)",
+   "shape": "box",
+   "min": [
+    318,
+    5.0,
+    5
+   ],
+   "max": [
+    321,
+    79.0,
+    74
+   ],
+   "material": "acrylic_clear",
+   "note": "ช่องเหนือแผ่นนี้คือทางที่บาน F1 กวาดผ่าน ติดม่านยาง/แปรงกันแสง (ไม่ได้ขึ้นรูปทรง)"
+  },
+  {
+   "id": "sc.wall.left.low.B",
+   "module": "scale",
+   "name": "ผนังซ้ายกล่องชั่ง (ล่าง เลนหลัง)",
+   "shape": "box",
+   "min": [
+    318,
+    84.0,
+    5
+   ],
+   "max": [
+    321,
+    158.0,
+    77
+   ],
+   "material": "acrylic_clear",
+   "note": "ช่องเหนือแผ่นนี้คือทางที่บาน F1 กวาดผ่าน ติดม่านยาง/แปรงกันแสง (ไม่ได้ขึ้นรูปทรง)"
+  },
+  {
+   "id": "sc.wall.left.top",
+   "module": "scale",
+   "name": "ผนังซ้ายกล่องชั่ง (บน)",
+   "shape": "box",
+   "min": [
+    318,
+    0,
+    170
+   ],
+   "max": [
+    321,
+    163.0,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.front.a",
+   "module": "scale",
+   "name": "ผนังหน้ากล่องชั่ง (ซ้าย)",
+   "shape": "box",
+   "min": [
+    321,
+    0,
+    5
+   ],
+   "max": [
+    337.0,
+    3,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.front.b",
+   "module": "scale",
+   "name": "ผนังหน้ากล่องชั่ง (เหนือช่องรางเสีย)",
+   "shape": "box",
+   "min": [
+    337.0,
+    0,
+    85
+   ],
+   "max": [
+    510.4,
+    3,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.front.c",
+   "module": "scale",
+   "name": "ผนังหน้ากล่องชั่ง (ระหว่างรางเสียกับราง A)",
+   "shape": "box",
+   "min": [
+    510.4,
+    0,
+    5
+   ],
+   "max": [
+    598.5,
+    3,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.front.d",
+   "module": "scale",
+   "name": "ผนังหน้ากล่องชั่ง (เหนือช่องราง A)",
+   "shape": "box",
+   "min": [
+    598.5,
+    0,
+    85
+   ],
+   "max": [
+    779.0,
+    3,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.front.e",
+   "module": "scale",
+   "name": "ผนังหน้ากล่องชั่ง (ระหว่างราง A กับ B)",
+   "shape": "box",
+   "min": [
+    779.0,
+    0,
+    5
+   ],
+   "max": [
+    781.0,
+    3,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.front.f",
+   "module": "scale",
+   "name": "ผนังหน้ากล่องชั่ง (เหนือช่องราง B)",
+   "shape": "box",
+   "min": [
+    781.0,
+    0,
+    104
+   ],
+   "max": [
+    982.0,
+    3,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.back",
+   "module": "scale",
+   "name": "ผนังหลังกล่องชั่ง",
+   "shape": "box",
+   "min": [
+    321,
+    160.0,
+    5
+   ],
+   "max": [
+    982.0,
+    163.0,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.right",
+   "module": "scale",
+   "name": "ผนังขวากล่องชั่ง (ท้ายเครื่อง)",
+   "shape": "box",
+   "min": [
+    982.0,
+    0,
+    5
+   ],
+   "max": [
+    985.0,
+    163.0,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.mid.a",
+   "module": "scale",
+   "name": "ผนังกลางกล่องชั่ง (เหนือแอ่งรางเสีย ไข่เลนหลังลอดได้)",
+   "shape": "box",
+   "min": [
+    321,
+    79.0,
+    95
+   ],
+   "max": [
+    512.0,
+    84.0,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.mid.b",
+   "module": "scale",
+   "name": "ผนังกลางกล่องชั่ง (เหนือ deck)",
+   "shape": "box",
+   "min": [
+    512.0,
+    79.0,
+    55.9
+   ],
+   "max": [
+    595.5,
+    84.0,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.mid.c",
+   "module": "scale",
+   "name": "ผนังกลางกล่องชั่ง (รับแกน K2 กลาง)",
+   "shape": "box",
+   "min": [
+    595.5,
+    79.0,
+    88
+   ],
+   "max": [
+    608.5,
+    84.0,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.wall.mid.d",
+   "module": "scale",
+   "name": "ผนังกลางกล่องชั่ง (เหนือราง A/B ให้ชุดราง B ดึงลอดได้)",
+   "shape": "box",
+   "min": [
+    608.5,
+    79.0,
+    104
+   ],
+   "max": [
+    982.0,
+    84.0,
+    172
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.lid",
+   "module": "scale",
+   "name": "ฝากล่องชั่ง (ท่อนขวาเหนือราง A/B ถอดได้)",
+   "shape": "box",
+   "min": [
+    318,
+    0,
+    172
+   ],
+   "max": [
+    985.0,
+    163.0,
+    175
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.F.fixbridge",
+   "module": "scale",
+   "name": "สะพานตายตัว F1→แท่นชั่ง 50 มม. ลาด 5.5° เลนหน้า",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     403.9,
+     103.9
+    ],
+    [
+     453.6,
+     99.1
+    ],
+    [
+     453.4,
+     96.1
+    ],
+    [
+     403.6,
+     100.9
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear",
+   "note": "ใต้สะพานนี้คือแอ่งรางเสีย"
+  },
+  {
+   "id": "sc.F.fixbridge2",
+   "module": "scale",
+   "name": "สะพานตายตัว ท่อนต่อ ลาด 1.5° เลนหน้า",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     453.6,
+     99.1
+    ],
+    [
+     511.0,
+     97.6
+    ],
+    [
+     510.9,
+     94.6
+    ],
+    [
+     453.6,
+     96.1
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear",
+   "note": "ต่อจากท่อนแรกเพื่อเลื่อนแท่นชั่งไปทางขวาให้แอ่งรางเสียยาวพอให้ไข่หมุน"
+  },
+  {
+   "id": "sc.F.platform",
+   "module": "scale",
+   "name": "แท่นชั่ง 60×68 เอียง 3° (แอ่ง Ø40 ลึก 2.5 ที่ X 543)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     513.0,
+     97.4
+    ],
+    [
+     573.0,
+     94.3
+    ],
+    [
+     573.0,
+     89.3
+    ],
+    [
+     513.0,
+     92.4
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear",
+   "note": "แอ่งทรงกลม Ø40 ลึก 2.5 มม. กึ่งกลาง X 543 (ทำด้วย CSG หรือ decal)"
+  },
+  {
+   "id": "sc.F.lc.block",
+   "module": "scale",
+   "name": "บล็อกยึด load cell (ฝั่งขวา)",
+   "shape": "box",
+   "min": [
+    580.0,
+    34.0,
+    55.9
+   ],
+   "max": [
+    595.0,
+    50.0,
+    65.9
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "sc.F.lc",
+   "module": "scale",
+   "name": "Load cell 1 kg (ปลายอิสระฝั่งซ้าย)",
+   "shape": "box",
+   "min": [
+    515.0,
+    35.6,
+    65.9
+   ],
+   "max": [
+    595.0,
+    48.4,
+    78.6
+   ],
+   "material": "load_cell"
+  },
+  {
+   "id": "sc.F.lc.spacer",
+   "module": "scale",
+   "name": "แผ่นรองลิ่ม 3° ใต้แท่น",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     518.0,
+     78.6
+    ],
+    [
+     533.0,
+     78.6
+    ],
+    [
+     533.0,
+     91.4
+    ],
+    [
+     518.0,
+     92.1
+    ]
+   ],
+   "extrude": [
+    34.0,
+    50.0
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "sc.F.hx711",
+   "module": "scale",
+   "name": "HX711",
+   "shape": "box",
+   "min": [
+    554.0,
+    13.0,
+    55.9
+   ],
+   "max": [
+    574.0,
+    31.0,
+    58.3
+   ],
+   "material": "pcb_green"
+  },
+  {
+   "id": "sc.F.k1",
+   "module": "scale",
+   "name": "K1 ไม้ปัดดันไข่ (จากด้านบน)",
+   "shape": "box",
+   "min": [
+    513.0,
+    22.0,
+    159
+   ],
+   "max": [
+    565.0,
+    62.0,
+    162
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "sc.F.k1.servo",
+   "module": "scale",
+   "name": "เซอร์โว K1",
+   "shape": "box",
+   "min": [
+    559.0,
+    -22.7,
+    154.4
+   ],
+   "max": [
+    581.8,
+    0.0,
+    166.6
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "sc.F.transfer",
+   "module": "scale",
+   "name": "แผ่นส่งต่อ แท่นชั่ง→K2 เลนหน้า",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     574.5,
+     94.2
+    ],
+    [
+     599.5,
+     92.8
+    ],
+    [
+     599.5,
+     89.8
+    ],
+    [
+     574.5,
+     91.2
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.F.k2",
+   "module": "scale",
+   "name": "บาน K2 80×68",
+   "shape": "box",
+   "min": [
+    602.5,
+    8.0,
+    89.6
+   ],
+   "max": [
+    682.5,
+    76.0,
+    92.6
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.F.bridge",
+   "module": "scale",
+   "name": "สะพานคงที่ K2→ราง B ลาด 2° (ข้ามราง A)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     684.0,
+     89.8
+    ],
+    [
+     781.0,
+     86.4
+    ],
+    [
+     781.0,
+     83.4
+    ],
+    [
+     684.0,
+     86.8
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.F.k2.servo",
+   "module": "scale",
+   "name": "เซอร์โว K2 MG996R",
+   "shape": "box",
+   "min": [
+    592.5,
+    -42.9,
+    82.8
+   ],
+   "max": [
+    633.2,
+    0.0,
+    102.4
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "sc.B.fixbridge",
+   "module": "scale",
+   "name": "สะพานตายตัว F1→แท่นชั่ง 50 มม. ลาด 5.5° เลนหลัง",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     403.9,
+     103.9
+    ],
+    [
+     453.6,
+     99.1
+    ],
+    [
+     453.4,
+     96.1
+    ],
+    [
+     403.6,
+     100.9
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear",
+   "note": "ใต้สะพานนี้คือแอ่งรางเสีย"
+  },
+  {
+   "id": "sc.B.fixbridge2",
+   "module": "scale",
+   "name": "สะพานตายตัว ท่อนต่อ ลาด 1.5° เลนหลัง",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     453.6,
+     99.1
+    ],
+    [
+     511.0,
+     97.6
+    ],
+    [
+     510.9,
+     94.6
+    ],
+    [
+     453.6,
+     96.1
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear",
+   "note": "ต่อจากท่อนแรกเพื่อเลื่อนแท่นชั่งไปทางขวาให้แอ่งรางเสียยาวพอให้ไข่หมุน"
+  },
+  {
+   "id": "sc.B.platform",
+   "module": "scale",
+   "name": "แท่นชั่ง 60×68 เอียง 3° (แอ่ง Ø40 ลึก 2.5 ที่ X 543)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     513.0,
+     97.4
+    ],
+    [
+     573.0,
+     94.3
+    ],
+    [
+     573.0,
+     89.3
+    ],
+    [
+     513.0,
+     92.4
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear",
+   "note": "แอ่งทรงกลม Ø40 ลึก 2.5 มม. กึ่งกลาง X 543 (ทำด้วย CSG หรือ decal)"
+  },
+  {
+   "id": "sc.B.lc.block",
+   "module": "scale",
+   "name": "บล็อกยึด load cell (ฝั่งขวา)",
+   "shape": "box",
+   "min": [
+    580.0,
+    113.0,
+    55.9
+   ],
+   "max": [
+    595.0,
+    129.0,
+    65.9
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "sc.B.lc",
+   "module": "scale",
+   "name": "Load cell 1 kg (ปลายอิสระฝั่งซ้าย)",
+   "shape": "box",
+   "min": [
+    515.0,
+    114.7,
+    65.9
+   ],
+   "max": [
+    595.0,
+    127.3,
+    78.6
+   ],
+   "material": "load_cell"
+  },
+  {
+   "id": "sc.B.lc.spacer",
+   "module": "scale",
+   "name": "แผ่นรองลิ่ม 3° ใต้แท่น",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     518.0,
+     78.6
+    ],
+    [
+     533.0,
+     78.6
+    ],
+    [
+     533.0,
+     91.4
+    ],
+    [
+     518.0,
+     92.1
+    ]
+   ],
+   "extrude": [
+    113.0,
+    129.0
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "sc.B.hx711",
+   "module": "scale",
+   "name": "HX711",
+   "shape": "box",
+   "min": [
+    554.0,
+    134.0,
+    55.9
+   ],
+   "max": [
+    574.0,
+    152.0,
+    58.3
+   ],
+   "material": "pcb_green"
+  },
+  {
+   "id": "sc.B.k1",
+   "module": "scale",
+   "name": "K1 ไม้ปัดดันไข่ (จากด้านบน)",
+   "shape": "box",
+   "min": [
+    513.0,
+    101.0,
+    159
+   ],
+   "max": [
+    565.0,
+    141.0,
+    162
+   ],
+   "material": "printed"
+  },
+  {
+   "id": "sc.B.k1.servo",
+   "module": "scale",
+   "name": "เซอร์โว K1",
+   "shape": "box",
+   "min": [
+    559.0,
+    163.0,
+    154.4
+   ],
+   "max": [
+    581.8,
+    185.7,
+    166.6
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "sc.B.transfer",
+   "module": "scale",
+   "name": "แผ่นส่งต่อ แท่นชั่ง→K2 เลนหลัง",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     574.5,
+     94.2
+    ],
+    [
+     599.5,
+     92.8
+    ],
+    [
+     599.5,
+     89.8
+    ],
+    [
+     574.5,
+     91.2
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.B.k2",
+   "module": "scale",
+   "name": "บาน K2 80×68",
+   "shape": "box",
+   "min": [
+    602.5,
+    87.0,
+    89.6
+   ],
+   "max": [
+    682.5,
+    155.0,
+    92.6
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.B.bridge",
+   "module": "scale",
+   "name": "สะพานคงที่ K2→ราง B ลาด 2° (ข้ามราง A)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     684.0,
+     89.8
+    ],
+    [
+     781.0,
+     86.4
+    ],
+    [
+     781.0,
+     83.4
+    ],
+    [
+     684.0,
+     86.8
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "sc.B.k2.servo",
+   "module": "scale",
+   "name": "เซอร์โว K2 MG996R",
+   "shape": "box",
+   "min": [
+    592.5,
+    163.0,
+    82.8
+   ],
+   "max": [
+    633.2,
+    205.9,
+    102.4
+   ],
+   "material": "servo"
+  },
+  {
+   "id": "out.reject.chute.floor",
+   "module": "output",
+   "name": "พื้นรางไข่เสีย",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     17.0
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     155.0,
+     27.6
+    ],
+    [
+     0,
+     14.0
+    ]
+   ],
+   "extrude": [
+    340.0,
+    507.4
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.reject.chute.surface",
+   "module": "output",
+   "name": "พื้นแอ่ง/รางไข่เสีย อะคริลิก 5 มม. (ผิวลื่น ไข่กลิ้งออกตัวได้บนพื้นเอียง 5°)",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     22.0
+    ],
+    [
+     155.0,
+     35.6
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     0,
+     17.0
+    ]
+   ],
+   "extrude": [
+    340.0,
+    421.0
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "out.reject.chute.surface.end",
+   "module": "output",
+   "name": "พื้นแอ่ง/รางไข่เสีย อะคริลิก 5 มม. (ผิวลื่น ไข่กลิ้งออกตัวได้บนพื้นเอียง 5°)",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     22.0
+    ],
+    [
+     155.0,
+     35.6
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     0,
+     17.0
+    ]
+   ],
+   "extrude": [
+    502.4,
+    507.4
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "out.reject.tray.floor",
+   "module": "output",
+   "name": "พื้นถาดหน้าไข่เสีย",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -130,
+     7.9
+    ],
+    [
+     0,
+     17.0
+    ],
+    [
+     0,
+     14.0
+    ],
+    [
+     -130,
+     4.9
+    ]
+   ],
+   "extrude": [
+    324,
+    507.4
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.reject.tray.foam",
+   "module": "output",
+   "name": "โฟมถาดหน้าไข่เสีย",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -125,
+     13.3
+    ],
+    [
+     0,
+     22.0
+    ],
+    [
+     0,
+     17.0
+    ],
+    [
+     -125,
+     8.3
+    ]
+   ],
+   "extrude": [
+    324,
+    421.0
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.tray.foam.end",
+   "module": "output",
+   "name": "โฟมถาดหน้าไข่เสีย",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -125,
+     13.3
+    ],
+    [
+     0,
+     22.0
+    ],
+    [
+     0,
+     17.0
+    ],
+    [
+     -125,
+     8.3
+    ]
+   ],
+   "extrude": [
+    502.4,
+    507.4
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.chute.side.l",
+   "module": "output",
+   "name": "ผนังข้างราง",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     5
+    ],
+    [
+     158.0,
+     5
+    ],
+    [
+     158.0,
+     60.8
+    ],
+    [
+     0,
+     47.0
+    ]
+   ],
+   "extrude": [
+    337.0,
+    340.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.reject.chute.side.r",
+   "module": "output",
+   "name": "ผนังข้างราง (หลังกันชน)",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     5
+    ],
+    [
+     158.0,
+     5
+    ],
+    [
+     158.0,
+     84.0
+    ],
+    [
+     0,
+     84.0
+    ]
+   ],
+   "extrude": [
+    507.4,
+    510.4
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.reject.tray.side.l",
+   "module": "output",
+   "name": "ผนังข้างถาดหน้า",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -130,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     47.0
+    ],
+    [
+     -130,
+     37.9
+    ]
+   ],
+   "extrude": [
+    321,
+    324
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.reject.tray.side.r",
+   "module": "output",
+   "name": "ผนังข้างถาดหน้า",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -130,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     47.0
+    ],
+    [
+     -130,
+     37.9
+    ]
+   ],
+   "extrude": [
+    507.4,
+    510.4
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.reject.shoulder.l",
+   "module": "output",
+   "name": "ผนังบ่าถาดหน้า",
+   "shape": "box",
+   "min": [
+    324,
+    -3,
+    17.0
+   ],
+   "max": [
+    337.0,
+    0,
+    47.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.reject.back",
+   "module": "output",
+   "name": "ผนังหลังราง",
+   "shape": "box",
+   "min": [
+    340.0,
+    155.0,
+    5
+   ],
+   "max": [
+    507.4,
+    158.0,
+    60.8
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.reject.bumper",
+   "module": "output",
+   "name": "กันชนโฟมขอบหน้า",
+   "shape": "box",
+   "min": [
+    324,
+    -130,
+    7.9
+   ],
+   "max": [
+    507.4,
+    -125,
+    40
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.runout.F",
+   "module": "output",
+   "name": "แผ่นรับปลาย F1 เลนหน้า",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     380.0,
+     38.9
+    ],
+    [
+     393.6,
+     32.1
+    ],
+    [
+     407.3,
+     27.8
+    ],
+    [
+     421.0,
+     25.7
+    ],
+    [
+     421.0,
+     24.6
+    ],
+    [
+     380.0,
+     24.6
+    ]
+   ],
+   "extrude": [
+    0,
+    81.5
+   ],
+   "material": "eva_reject",
+   "note": "ผิวบนหักมุมทีละน้อยจนแนบพื้น (โค้งรับเข้าพื้น) ชิ้นจริงทำโค้งต่อเนื่องได้"
+  },
+  {
+   "id": "out.reject.runout.B",
+   "module": "output",
+   "name": "แผ่นรับปลาย F1 เลนหลัง",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     383.1,
+     43.7
+    ],
+    [
+     395.7,
+     38.0
+    ],
+    [
+     408.4,
+     34.4
+    ],
+    [
+     421.0,
+     32.6
+    ],
+    [
+     421.0,
+     31.1
+    ],
+    [
+     383.1,
+     31.1
+    ]
+   ],
+   "extrude": [
+    81.5,
+    155.0
+   ],
+   "material": "eva_reject",
+   "note": "ผิวบนหักมุมทีละน้อยจนแนบพื้น (โค้งรับเข้าพื้น) ชิ้นจริงทำโค้งต่อเนื่องได้"
+  },
+  {
+   "id": "out.reject.pocket.floor.1",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 1/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     421.0,
+     17.0
+    ],
+    [
+     427.8,
+     17.0
+    ],
+    [
+     427.8,
+     20.6
+    ],
+    [
+     421.0,
+     22.0
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.2",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 2/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     427.8,
+     17.0
+    ],
+    [
+     434.6,
+     17.0
+    ],
+    [
+     434.6,
+     19.5
+    ],
+    [
+     427.8,
+     20.6
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.3",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 3/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     434.6,
+     17.0
+    ],
+    [
+     441.4,
+     17.0
+    ],
+    [
+     441.4,
+     18.7
+    ],
+    [
+     434.6,
+     19.5
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.4",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 4/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     441.4,
+     17.0
+    ],
+    [
+     448.1,
+     17.0
+    ],
+    [
+     448.1,
+     18.2
+    ],
+    [
+     441.4,
+     18.7
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.5",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 5/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     448.1,
+     17.0
+    ],
+    [
+     454.9,
+     17.0
+    ],
+    [
+     454.9,
+     18.0
+    ],
+    [
+     448.1,
+     18.2
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.6",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 6/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     454.9,
+     17.0
+    ],
+    [
+     461.7,
+     17.0
+    ],
+    [
+     461.7,
+     18.1
+    ],
+    [
+     454.9,
+     18.0
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.7",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 7/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     461.7,
+     17.0
+    ],
+    [
+     468.5,
+     17.0
+    ],
+    [
+     468.5,
+     18.5
+    ],
+    [
+     461.7,
+     18.1
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.8",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 8/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     468.5,
+     17.0
+    ],
+    [
+     475.3,
+     17.0
+    ],
+    [
+     475.3,
+     19.2
+    ],
+    [
+     468.5,
+     18.5
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.9",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 9/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     475.3,
+     17.0
+    ],
+    [
+     482.1,
+     17.0
+    ],
+    [
+     482.1,
+     20.2
+    ],
+    [
+     475.3,
+     19.2
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.10",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 10/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     482.1,
+     17.0
+    ],
+    [
+     488.9,
+     17.0
+    ],
+    [
+     488.9,
+     21.5
+    ],
+    [
+     482.1,
+     20.2
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.11",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 11/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     488.9,
+     17.0
+    ],
+    [
+     495.6,
+     17.0
+    ],
+    [
+     495.6,
+     23.2
+    ],
+    [
+     488.9,
+     21.5
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.floor.12",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 12/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     495.6,
+     17.0
+    ],
+    [
+     502.4,
+     17.0
+    ],
+    [
+     502.4,
+     25.1
+    ],
+    [
+     495.6,
+     23.2
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.1",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 1/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     421.0,
+     17.0
+    ],
+    [
+     427.8,
+     17.0
+    ],
+    [
+     427.8,
+     20.6
+    ],
+    [
+     421.0,
+     22.0
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.2",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 2/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     427.8,
+     17.0
+    ],
+    [
+     434.6,
+     17.0
+    ],
+    [
+     434.6,
+     19.5
+    ],
+    [
+     427.8,
+     20.6
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.3",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 3/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     434.6,
+     17.0
+    ],
+    [
+     441.4,
+     17.0
+    ],
+    [
+     441.4,
+     18.7
+    ],
+    [
+     434.6,
+     19.5
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.4",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 4/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     441.4,
+     17.0
+    ],
+    [
+     448.1,
+     17.0
+    ],
+    [
+     448.1,
+     18.2
+    ],
+    [
+     441.4,
+     18.7
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.5",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 5/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     448.1,
+     17.0
+    ],
+    [
+     454.9,
+     17.0
+    ],
+    [
+     454.9,
+     18.0
+    ],
+    [
+     448.1,
+     18.2
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.6",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 6/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     454.9,
+     17.0
+    ],
+    [
+     461.7,
+     17.0
+    ],
+    [
+     461.7,
+     18.1
+    ],
+    [
+     454.9,
+     18.0
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.7",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 7/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     461.7,
+     17.0
+    ],
+    [
+     468.5,
+     17.0
+    ],
+    [
+     468.5,
+     18.5
+    ],
+    [
+     461.7,
+     18.1
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.8",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 8/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     468.5,
+     17.0
+    ],
+    [
+     475.3,
+     17.0
+    ],
+    [
+     475.3,
+     19.2
+    ],
+    [
+     468.5,
+     18.5
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.9",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 9/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     475.3,
+     17.0
+    ],
+    [
+     482.1,
+     17.0
+    ],
+    [
+     482.1,
+     20.2
+    ],
+    [
+     475.3,
+     19.2
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.10",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 10/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     482.1,
+     17.0
+    ],
+    [
+     488.9,
+     17.0
+    ],
+    [
+     488.9,
+     21.5
+    ],
+    [
+     482.1,
+     20.2
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.11",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 11/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     488.9,
+     17.0
+    ],
+    [
+     495.6,
+     17.0
+    ],
+    [
+     495.6,
+     23.2
+    ],
+    [
+     488.9,
+     21.5
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.tray.12",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 12/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     495.6,
+     17.0
+    ],
+    [
+     502.4,
+     17.0
+    ],
+    [
+     502.4,
+     25.1
+    ],
+    [
+     495.6,
+     23.2
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_reject",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      421.0,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.reject.pocket.back.1",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 1/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     141.3,
+     29.4
+    ],
+    [
+     144.9,
+     29.7
+    ],
+    [
+     144.9,
+     31.1
+    ],
+    [
+     141.3,
+     30.4
+    ]
+   ],
+   "extrude": [
+    421.0,
+    502.4
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.back.2",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 2/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     144.9,
+     29.7
+    ],
+    [
+     148.2,
+     30.0
+    ],
+    [
+     148.2,
+     32.8
+    ],
+    [
+     144.9,
+     31.1
+    ]
+   ],
+   "extrude": [
+    421.0,
+    502.4
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.back.3",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 3/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     148.2,
+     30.0
+    ],
+    [
+     151.1,
+     30.2
+    ],
+    [
+     151.1,
+     35.2
+    ],
+    [
+     148.2,
+     32.8
+    ]
+   ],
+   "extrude": [
+    421.0,
+    502.4
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.back.4",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 4/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     151.1,
+     30.2
+    ],
+    [
+     153.2,
+     30.4
+    ],
+    [
+     153.2,
+     38.2
+    ],
+    [
+     151.1,
+     35.2
+    ]
+   ],
+   "extrude": [
+    421.0,
+    502.4
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.back.5",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 5/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     153.2,
+     30.4
+    ],
+    [
+     154.5,
+     30.5
+    ],
+    [
+     154.5,
+     41.6
+    ],
+    [
+     153.2,
+     38.2
+    ]
+   ],
+   "extrude": [
+    421.0,
+    502.4
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.back.6",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 6/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     154.5,
+     30.5
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     155.0,
+     45.3
+    ],
+    [
+     154.5,
+     41.6
+    ]
+   ],
+   "extrude": [
+    421.0,
+    502.4
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.corner.1",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 1/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     502.4,
+     155.0
+    ],
+    [
+     502.4,
+     135.0
+    ],
+    [
+     501.7,
+     140.2
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.corner.2",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 2/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     502.4,
+     155.0
+    ],
+    [
+     501.7,
+     140.2
+    ],
+    [
+     499.8,
+     145.0
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.corner.3",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 3/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     502.4,
+     155.0
+    ],
+    [
+     499.8,
+     145.0
+    ],
+    [
+     496.6,
+     149.1
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.corner.4",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 4/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     502.4,
+     155.0
+    ],
+    [
+     496.6,
+     149.1
+    ],
+    [
+     492.4,
+     152.3
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.corner.5",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 5/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     502.4,
+     155.0
+    ],
+    [
+     492.4,
+     152.3
+    ],
+    [
+     487.6,
+     154.3
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.pocket.corner.6",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 6/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     502.4,
+     155.0
+    ],
+    [
+     487.6,
+     154.3
+    ],
+    [
+     482.4,
+     155.0
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.reject.stop.foam",
+   "module": "output",
+   "name": "กันชนโฟมท้ายแอ่ง",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     17.5
+    ],
+    [
+     155.0,
+     31.1
+    ],
+    [
+     155.0,
+     84.0
+    ],
+    [
+     0,
+     84.0
+    ]
+   ],
+   "extrude": [
+    502.4,
+    507.4
+   ],
+   "material": "eva_reject"
+  },
+  {
+   "id": "out.A.chute.floor",
+   "module": "output",
+   "name": "พื้นราง A",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     17.0
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     155.0,
+     27.6
+    ],
+    [
+     0,
+     14.0
+    ]
+   ],
+   "extrude": [
+    601.5,
+    776.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.A.chute.surface",
+   "module": "output",
+   "name": "พื้นแอ่ง/ราง A อะคริลิก 5 มม. (ผิวลื่น ไข่กลิ้งออกตัวได้บนพื้นเอียง 5°)",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     22.0
+    ],
+    [
+     155.0,
+     35.6
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     0,
+     17.0
+    ]
+   ],
+   "extrude": [
+    601.5,
+    689.9
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "out.A.chute.surface.end",
+   "module": "output",
+   "name": "พื้นแอ่ง/ราง A อะคริลิก 5 มม. (ผิวลื่น ไข่กลิ้งออกตัวได้บนพื้นเอียง 5°)",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     22.0
+    ],
+    [
+     155.0,
+     35.6
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     0,
+     17.0
+    ]
+   ],
+   "extrude": [
+    771.0,
+    776.0
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "out.A.tray.floor",
+   "module": "output",
+   "name": "พื้นถาดหน้า A",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -130,
+     7.9
+    ],
+    [
+     0,
+     17.0
+    ],
+    [
+     0,
+     14.0
+    ],
+    [
+     -130,
+     4.9
+    ]
+   ],
+   "extrude": [
+    516.4,
+    776.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.A.tray.foam",
+   "module": "output",
+   "name": "โฟมถาดหน้า A",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -125,
+     13.3
+    ],
+    [
+     0,
+     22.0
+    ],
+    [
+     0,
+     17.0
+    ],
+    [
+     -125,
+     8.3
+    ]
+   ],
+   "extrude": [
+    516.4,
+    689.9
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.tray.foam.end",
+   "module": "output",
+   "name": "โฟมถาดหน้า A",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -125,
+     13.3
+    ],
+    [
+     0,
+     22.0
+    ],
+    [
+     0,
+     17.0
+    ],
+    [
+     -125,
+     8.3
+    ]
+   ],
+   "extrude": [
+    771.0,
+    776.0
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.chute.side.l",
+   "module": "output",
+   "name": "ผนังข้างราง",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     5
+    ],
+    [
+     158.0,
+     5
+    ],
+    [
+     158.0,
+     60.8
+    ],
+    [
+     0,
+     47.0
+    ]
+   ],
+   "extrude": [
+    598.5,
+    601.5
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.A.chute.side.r",
+   "module": "output",
+   "name": "ผนังข้างราง (หลังกันชน)",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     5
+    ],
+    [
+     158.0,
+     5
+    ],
+    [
+     158.0,
+     81
+    ],
+    [
+     0,
+     81
+    ]
+   ],
+   "extrude": [
+    776.0,
+    779.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.A.tray.side.l",
+   "module": "output",
+   "name": "ผนังข้างถาดหน้า",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -130,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     47.0
+    ],
+    [
+     -130,
+     37.9
+    ]
+   ],
+   "extrude": [
+    513.4,
+    516.4
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.A.tray.side.r",
+   "module": "output",
+   "name": "ผนังข้างถาดหน้า",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -130,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     47.0
+    ],
+    [
+     -130,
+     37.9
+    ]
+   ],
+   "extrude": [
+    776.0,
+    779.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.A.shoulder.l",
+   "module": "output",
+   "name": "ผนังบ่าถาดหน้า",
+   "shape": "box",
+   "min": [
+    516.4,
+    -3,
+    17.0
+   ],
+   "max": [
+    598.5,
+    0,
+    47.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.A.back",
+   "module": "output",
+   "name": "ผนังหลังราง",
+   "shape": "box",
+   "min": [
+    601.5,
+    155.0,
+    5
+   ],
+   "max": [
+    776.0,
+    158.0,
+    60.8
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.A.bumper",
+   "module": "output",
+   "name": "กันชนโฟมขอบหน้า",
+   "shape": "box",
+   "min": [
+    516.4,
+    -130,
+    7.9
+   ],
+   "max": [
+    776.0,
+    -125,
+    40
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.runout.F",
+   "module": "output",
+   "name": "แผ่นรับปลาย K2 เลนหน้า",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     662.0,
+     36.9
+    ],
+    [
+     671.3,
+     31.1
+    ],
+    [
+     680.6,
+     27.4
+    ],
+    [
+     689.9,
+     25.7
+    ],
+    [
+     689.9,
+     24.6
+    ],
+    [
+     662.0,
+     24.6
+    ]
+   ],
+   "extrude": [
+    0,
+    81.5
+   ],
+   "material": "eva_A",
+   "note": "ผิวบนหักมุมทีละน้อยจนแนบพื้น (โค้งรับเข้าพื้น) ชิ้นจริงทำโค้งต่อเนื่องได้"
+  },
+  {
+   "id": "out.A.runout.B",
+   "module": "output",
+   "name": "แผ่นรับปลาย K2 เลนหลัง",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     665.8,
+     41.3
+    ],
+    [
+     673.9,
+     36.8
+    ],
+    [
+     681.9,
+     34.0
+    ],
+    [
+     689.9,
+     32.6
+    ],
+    [
+     689.9,
+     31.1
+    ],
+    [
+     665.8,
+     31.1
+    ]
+   ],
+   "extrude": [
+    81.5,
+    155.0
+   ],
+   "material": "eva_A",
+   "note": "ผิวบนหักมุมทีละน้อยจนแนบพื้น (โค้งรับเข้าพื้น) ชิ้นจริงทำโค้งต่อเนื่องได้"
+  },
+  {
+   "id": "out.A.pocket.floor.1",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 1/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     689.9,
+     17.0
+    ],
+    [
+     696.7,
+     17.0
+    ],
+    [
+     696.7,
+     20.6
+    ],
+    [
+     689.9,
+     22.0
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.2",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 2/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     696.7,
+     17.0
+    ],
+    [
+     703.4,
+     17.0
+    ],
+    [
+     703.4,
+     19.5
+    ],
+    [
+     696.7,
+     20.6
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.3",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 3/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     703.4,
+     17.0
+    ],
+    [
+     710.2,
+     17.0
+    ],
+    [
+     710.2,
+     18.7
+    ],
+    [
+     703.4,
+     19.5
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.4",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 4/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     710.2,
+     17.0
+    ],
+    [
+     716.9,
+     17.0
+    ],
+    [
+     716.9,
+     18.2
+    ],
+    [
+     710.2,
+     18.7
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.5",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 5/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     716.9,
+     17.0
+    ],
+    [
+     723.7,
+     17.0
+    ],
+    [
+     723.7,
+     18.0
+    ],
+    [
+     716.9,
+     18.2
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.6",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 6/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     723.7,
+     17.0
+    ],
+    [
+     730.4,
+     17.0
+    ],
+    [
+     730.4,
+     18.1
+    ],
+    [
+     723.7,
+     18.0
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.7",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 7/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     730.4,
+     17.0
+    ],
+    [
+     737.2,
+     17.0
+    ],
+    [
+     737.2,
+     18.5
+    ],
+    [
+     730.4,
+     18.1
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.8",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 8/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     737.2,
+     17.0
+    ],
+    [
+     743.9,
+     17.0
+    ],
+    [
+     743.9,
+     19.2
+    ],
+    [
+     737.2,
+     18.5
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.9",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 9/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     743.9,
+     17.0
+    ],
+    [
+     750.7,
+     17.0
+    ],
+    [
+     750.7,
+     20.2
+    ],
+    [
+     743.9,
+     19.2
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.10",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 10/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     750.7,
+     17.0
+    ],
+    [
+     757.5,
+     17.0
+    ],
+    [
+     757.5,
+     21.5
+    ],
+    [
+     750.7,
+     20.2
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.11",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 11/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     757.5,
+     17.0
+    ],
+    [
+     764.2,
+     17.0
+    ],
+    [
+     764.2,
+     23.1
+    ],
+    [
+     757.5,
+     21.5
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.floor.12",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 12/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     764.2,
+     17.0
+    ],
+    [
+     771.0,
+     17.0
+    ],
+    [
+     771.0,
+     25.0
+    ],
+    [
+     764.2,
+     23.1
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.1",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 1/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     689.9,
+     17.0
+    ],
+    [
+     696.7,
+     17.0
+    ],
+    [
+     696.7,
+     20.6
+    ],
+    [
+     689.9,
+     22.0
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.2",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 2/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     696.7,
+     17.0
+    ],
+    [
+     703.4,
+     17.0
+    ],
+    [
+     703.4,
+     19.5
+    ],
+    [
+     696.7,
+     20.6
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.3",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 3/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     703.4,
+     17.0
+    ],
+    [
+     710.2,
+     17.0
+    ],
+    [
+     710.2,
+     18.7
+    ],
+    [
+     703.4,
+     19.5
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.4",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 4/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     710.2,
+     17.0
+    ],
+    [
+     716.9,
+     17.0
+    ],
+    [
+     716.9,
+     18.2
+    ],
+    [
+     710.2,
+     18.7
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.5",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 5/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     716.9,
+     17.0
+    ],
+    [
+     723.7,
+     17.0
+    ],
+    [
+     723.7,
+     18.0
+    ],
+    [
+     716.9,
+     18.2
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.6",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 6/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     723.7,
+     17.0
+    ],
+    [
+     730.4,
+     17.0
+    ],
+    [
+     730.4,
+     18.1
+    ],
+    [
+     723.7,
+     18.0
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.7",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 7/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     730.4,
+     17.0
+    ],
+    [
+     737.2,
+     17.0
+    ],
+    [
+     737.2,
+     18.5
+    ],
+    [
+     730.4,
+     18.1
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.8",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 8/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     737.2,
+     17.0
+    ],
+    [
+     743.9,
+     17.0
+    ],
+    [
+     743.9,
+     19.2
+    ],
+    [
+     737.2,
+     18.5
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.9",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 9/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     743.9,
+     17.0
+    ],
+    [
+     750.7,
+     17.0
+    ],
+    [
+     750.7,
+     20.2
+    ],
+    [
+     743.9,
+     19.2
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.10",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 10/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     750.7,
+     17.0
+    ],
+    [
+     757.5,
+     17.0
+    ],
+    [
+     757.5,
+     21.5
+    ],
+    [
+     750.7,
+     20.2
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.11",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 11/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     757.5,
+     17.0
+    ],
+    [
+     764.2,
+     17.0
+    ],
+    [
+     764.2,
+     23.1
+    ],
+    [
+     757.5,
+     21.5
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.tray.12",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 12/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     764.2,
+     17.0
+    ],
+    [
+     771.0,
+     17.0
+    ],
+    [
+     771.0,
+     25.0
+    ],
+    [
+     764.2,
+     23.1
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_A",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      689.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.A.pocket.back.1",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 1/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     141.3,
+     29.4
+    ],
+    [
+     144.9,
+     29.7
+    ],
+    [
+     144.9,
+     31.1
+    ],
+    [
+     141.3,
+     30.4
+    ]
+   ],
+   "extrude": [
+    689.9,
+    771.0
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.back.2",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 2/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     144.9,
+     29.7
+    ],
+    [
+     148.2,
+     30.0
+    ],
+    [
+     148.2,
+     32.8
+    ],
+    [
+     144.9,
+     31.1
+    ]
+   ],
+   "extrude": [
+    689.9,
+    771.0
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.back.3",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 3/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     148.2,
+     30.0
+    ],
+    [
+     151.1,
+     30.2
+    ],
+    [
+     151.1,
+     35.2
+    ],
+    [
+     148.2,
+     32.8
+    ]
+   ],
+   "extrude": [
+    689.9,
+    771.0
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.back.4",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 4/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     151.1,
+     30.2
+    ],
+    [
+     153.2,
+     30.4
+    ],
+    [
+     153.2,
+     38.2
+    ],
+    [
+     151.1,
+     35.2
+    ]
+   ],
+   "extrude": [
+    689.9,
+    771.0
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.back.5",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 5/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     153.2,
+     30.4
+    ],
+    [
+     154.5,
+     30.5
+    ],
+    [
+     154.5,
+     41.6
+    ],
+    [
+     153.2,
+     38.2
+    ]
+   ],
+   "extrude": [
+    689.9,
+    771.0
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.back.6",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 6/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     154.5,
+     30.5
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     155.0,
+     45.3
+    ],
+    [
+     154.5,
+     41.6
+    ]
+   ],
+   "extrude": [
+    689.9,
+    771.0
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.corner.1",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 1/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     771.0,
+     155.0
+    ],
+    [
+     771.0,
+     135.0
+    ],
+    [
+     770.3,
+     140.2
+    ]
+   ],
+   "extrude": [
+    31.1,
+    81
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.corner.2",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 2/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     771.0,
+     155.0
+    ],
+    [
+     770.3,
+     140.2
+    ],
+    [
+     768.3,
+     145.0
+    ]
+   ],
+   "extrude": [
+    31.1,
+    81
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.corner.3",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 3/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     771.0,
+     155.0
+    ],
+    [
+     768.3,
+     145.0
+    ],
+    [
+     765.1,
+     149.1
+    ]
+   ],
+   "extrude": [
+    31.1,
+    81
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.corner.4",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 4/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     771.0,
+     155.0
+    ],
+    [
+     765.1,
+     149.1
+    ],
+    [
+     761.0,
+     152.3
+    ]
+   ],
+   "extrude": [
+    31.1,
+    81
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.corner.5",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 5/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     771.0,
+     155.0
+    ],
+    [
+     761.0,
+     152.3
+    ],
+    [
+     756.1,
+     154.3
+    ]
+   ],
+   "extrude": [
+    31.1,
+    81
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.pocket.corner.6",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 6/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     771.0,
+     155.0
+    ],
+    [
+     756.1,
+     154.3
+    ],
+    [
+     751.0,
+     155.0
+    ]
+   ],
+   "extrude": [
+    31.1,
+    81
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.A.stop.foam",
+   "module": "output",
+   "name": "กันชนโฟมท้ายแอ่ง",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     17.5
+    ],
+    [
+     155.0,
+     31.1
+    ],
+    [
+     155.0,
+     81
+    ],
+    [
+     0,
+     81
+    ]
+   ],
+   "extrude": [
+    771.0,
+    776.0
+   ],
+   "material": "eva_A"
+  },
+  {
+   "id": "out.B.chute.floor",
+   "module": "output",
+   "name": "พื้นราง B",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     17.0
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     155.0,
+     27.6
+    ],
+    [
+     0,
+     14.0
+    ]
+   ],
+   "extrude": [
+    784.0,
+    979.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.chute.surface",
+   "module": "output",
+   "name": "พื้นแอ่ง/ราง B อะคริลิก 5 มม. (ผิวลื่น ไข่กลิ้งออกตัวได้บนพื้นเอียง 5°)",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     22.0
+    ],
+    [
+     155.0,
+     35.6
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     0,
+     17.0
+    ]
+   ],
+   "extrude": [
+    784.0,
+    888.9
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "out.B.chute.surface.end",
+   "module": "output",
+   "name": "พื้นแอ่ง/ราง B อะคริลิก 5 มม. (ผิวลื่น ไข่กลิ้งออกตัวได้บนพื้นเอียง 5°)",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     22.0
+    ],
+    [
+     155.0,
+     35.6
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     0,
+     17.0
+    ]
+   ],
+   "extrude": [
+    974.0,
+    979.0
+   ],
+   "material": "acrylic_white"
+  },
+  {
+   "id": "out.B.tray.floor",
+   "module": "output",
+   "name": "พื้นถาดหน้า B",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -130,
+     7.9
+    ],
+    [
+     0,
+     17.0
+    ],
+    [
+     0,
+     14.0
+    ],
+    [
+     -130,
+     4.9
+    ]
+   ],
+   "extrude": [
+    784.0,
+    979.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.tray.foam",
+   "module": "output",
+   "name": "โฟมถาดหน้า B",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -125,
+     13.3
+    ],
+    [
+     0,
+     22.0
+    ],
+    [
+     0,
+     17.0
+    ],
+    [
+     -125,
+     8.3
+    ]
+   ],
+   "extrude": [
+    784.0,
+    888.9
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.tray.foam.end",
+   "module": "output",
+   "name": "โฟมถาดหน้า B",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -125,
+     13.3
+    ],
+    [
+     0,
+     22.0
+    ],
+    [
+     0,
+     17.0
+    ],
+    [
+     -125,
+     8.3
+    ]
+   ],
+   "extrude": [
+    974.0,
+    979.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.chute.side.l",
+   "module": "output",
+   "name": "ผนังข้างราง",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     5
+    ],
+    [
+     158.0,
+     5
+    ],
+    [
+     158.0,
+     60.8
+    ],
+    [
+     0,
+     47.0
+    ]
+   ],
+   "extrude": [
+    781.0,
+    784.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.chute.side.r",
+   "module": "output",
+   "name": "ผนังข้างราง (หลังกันชน)",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     5
+    ],
+    [
+     158.0,
+     5
+    ],
+    [
+     158.0,
+     84.0
+    ],
+    [
+     0,
+     84.0
+    ]
+   ],
+   "extrude": [
+    979.0,
+    982.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.tray.side.l",
+   "module": "output",
+   "name": "ผนังข้างถาดหน้า",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -130,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     47.0
+    ],
+    [
+     -130,
+     37.9
+    ]
+   ],
+   "extrude": [
+    781.0,
+    784.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.tray.side.r",
+   "module": "output",
+   "name": "ผนังข้างถาดหน้า",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     -130,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     47.0
+    ],
+    [
+     -130,
+     37.9
+    ]
+   ],
+   "extrude": [
+    979.0,
+    982.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.back",
+   "module": "output",
+   "name": "ผนังหลังราง",
+   "shape": "box",
+   "min": [
+    888.9,
+    155.0,
+    5
+   ],
+   "max": [
+    979.0,
+    158.0,
+    60.8
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.bumper",
+   "module": "output",
+   "name": "กันชนโฟมขอบหน้า",
+   "shape": "box",
+   "min": [
+    784.0,
+    -130,
+    7.9
+   ],
+   "max": [
+    979.0,
+    -125,
+    40
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.ramp.F.1",
+   "module": "output",
+   "name": "ทางลาด B เลนหน้า ท่อน 1 ลาด -12°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     782.5,
+     86.3
+    ],
+    [
+     788.5,
+     85.0
+    ],
+    [
+     788.5,
+     82.0
+    ],
+    [
+     782.5,
+     83.3
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.rail1.1",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     782.5,
+     86.3
+    ],
+    [
+     788.5,
+     85.0
+    ],
+    [
+     788.5,
+     100.0
+    ],
+    [
+     782.5,
+     101.3
+    ]
+   ],
+   "extrude": [
+    6.0,
+    8.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.rail2.1",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     782.5,
+     86.3
+    ],
+    [
+     788.5,
+     85.0
+    ],
+    [
+     788.5,
+     100.0
+    ],
+    [
+     782.5,
+     101.3
+    ]
+   ],
+   "extrude": [
+    76.0,
+    78.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.2",
+   "module": "output",
+   "name": "ทางลาด B เลนหน้า ท่อน 2 ลาด -24°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     788.5,
+     85.0
+    ],
+    [
+     794.5,
+     82.4
+    ],
+    [
+     794.5,
+     79.4
+    ],
+    [
+     788.5,
+     82.0
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.rail1.2",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     788.5,
+     85.0
+    ],
+    [
+     794.5,
+     82.4
+    ],
+    [
+     794.5,
+     97.4
+    ],
+    [
+     788.5,
+     100.0
+    ]
+   ],
+   "extrude": [
+    6.0,
+    8.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.rail2.2",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     788.5,
+     85.0
+    ],
+    [
+     794.5,
+     82.4
+    ],
+    [
+     794.5,
+     97.4
+    ],
+    [
+     788.5,
+     100.0
+    ]
+   ],
+   "extrude": [
+    76.0,
+    78.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.3",
+   "module": "output",
+   "name": "ทางลาด B เลนหน้า ท่อน 3 ลาด -36°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     794.5,
+     82.4
+    ],
+    [
+     858.9,
+     35.6
+    ],
+    [
+     858.9,
+     32.6
+    ],
+    [
+     794.5,
+     79.4
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.rail1.3",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     794.5,
+     82.4
+    ],
+    [
+     858.9,
+     35.6
+    ],
+    [
+     858.9,
+     50.6
+    ],
+    [
+     794.5,
+     97.4
+    ]
+   ],
+   "extrude": [
+    6.0,
+    8.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.rail2.3",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     794.5,
+     82.4
+    ],
+    [
+     858.9,
+     35.6
+    ],
+    [
+     858.9,
+     50.6
+    ],
+    [
+     794.5,
+     97.4
+    ]
+   ],
+   "extrude": [
+    76.0,
+    78.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.4",
+   "module": "output",
+   "name": "ทางลาด B เลนหน้า ท่อน 4 ลาด -27°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     858.9,
+     35.6
+    ],
+    [
+     868.9,
+     30.5
+    ],
+    [
+     868.9,
+     27.5
+    ],
+    [
+     858.9,
+     32.6
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.5",
+   "module": "output",
+   "name": "ทางลาด B เลนหน้า ท่อน 5 ลาด -18°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     868.9,
+     30.5
+    ],
+    [
+     878.9,
+     27.3
+    ],
+    [
+     878.9,
+     24.6
+    ],
+    [
+     868.9,
+     27.5
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.F.6",
+   "module": "output",
+   "name": "ทางลาด B เลนหน้า ท่อน 6 ลาด -9°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     878.9,
+     27.3
+    ],
+    [
+     888.9,
+     25.7
+    ],
+    [
+     888.9,
+     24.6
+    ],
+    [
+     878.9,
+     24.6
+    ]
+   ],
+   "extrude": [
+    8.0,
+    76.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.post.F1",
+   "module": "output",
+   "name": "เสาค้ำทางลาด B",
+   "shape": "box",
+   "min": [
+    784.5,
+    8.0,
+    22.8
+   ],
+   "max": [
+    787.5,
+    11.0,
+    82.3
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.post.F2",
+   "module": "output",
+   "name": "เสาค้ำทางลาด B",
+   "shape": "box",
+   "min": [
+    784.5,
+    73.0,
+    28.5
+   ],
+   "max": [
+    787.5,
+    76.0,
+    82.3
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.1",
+   "module": "output",
+   "name": "ทางลาด B เลนหลัง ท่อน 1 ลาด -12°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     782.5,
+     86.3
+    ],
+    [
+     788.5,
+     85.0
+    ],
+    [
+     788.5,
+     82.0
+    ],
+    [
+     782.5,
+     83.3
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.rail1.1",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     782.5,
+     86.3
+    ],
+    [
+     788.5,
+     85.0
+    ],
+    [
+     788.5,
+     100.0
+    ],
+    [
+     782.5,
+     101.3
+    ]
+   ],
+   "extrude": [
+    85.0,
+    87.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.rail2.1",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     782.5,
+     86.3
+    ],
+    [
+     788.5,
+     85.0
+    ],
+    [
+     788.5,
+     100.0
+    ],
+    [
+     782.5,
+     101.3
+    ]
+   ],
+   "extrude": [
+    155.0,
+    157.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.2",
+   "module": "output",
+   "name": "ทางลาด B เลนหลัง ท่อน 2 ลาด -24°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     788.5,
+     85.0
+    ],
+    [
+     794.5,
+     82.4
+    ],
+    [
+     794.5,
+     79.4
+    ],
+    [
+     788.5,
+     82.0
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.rail1.2",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     788.5,
+     85.0
+    ],
+    [
+     794.5,
+     82.4
+    ],
+    [
+     794.5,
+     97.4
+    ],
+    [
+     788.5,
+     100.0
+    ]
+   ],
+   "extrude": [
+    85.0,
+    87.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.rail2.2",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     788.5,
+     85.0
+    ],
+    [
+     794.5,
+     82.4
+    ],
+    [
+     794.5,
+     97.4
+    ],
+    [
+     788.5,
+     100.0
+    ]
+   ],
+   "extrude": [
+    155.0,
+    157.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.3",
+   "module": "output",
+   "name": "ทางลาด B เลนหลัง ท่อน 3 ลาด -36°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     794.5,
+     82.4
+    ],
+    [
+     849.4,
+     42.5
+    ],
+    [
+     849.4,
+     39.5
+    ],
+    [
+     794.5,
+     79.4
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.rail1.3",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     794.5,
+     82.4
+    ],
+    [
+     849.4,
+     42.5
+    ],
+    [
+     849.4,
+     57.5
+    ],
+    [
+     794.5,
+     97.4
+    ]
+   ],
+   "extrude": [
+    85.0,
+    87.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.rail2.3",
+   "module": "output",
+   "name": "รางข้างทางลาด B (สูง 15)",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     794.5,
+     82.4
+    ],
+    [
+     849.4,
+     42.5
+    ],
+    [
+     849.4,
+     57.5
+    ],
+    [
+     794.5,
+     97.4
+    ]
+   ],
+   "extrude": [
+    155.0,
+    157.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.4",
+   "module": "output",
+   "name": "ทางลาด B เลนหลัง ท่อน 4 ลาด -27°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     849.4,
+     42.5
+    ],
+    [
+     859.4,
+     37.4
+    ],
+    [
+     859.4,
+     34.4
+    ],
+    [
+     849.4,
+     39.5
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.5",
+   "module": "output",
+   "name": "ทางลาด B เลนหลัง ท่อน 5 ลาด -18°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     859.4,
+     37.4
+    ],
+    [
+     869.4,
+     34.2
+    ],
+    [
+     869.4,
+     31.2
+    ],
+    [
+     859.4,
+     34.4
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.ramp.B.6",
+   "module": "output",
+   "name": "ทางลาด B เลนหลัง ท่อน 6 ลาด -9°",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     869.4,
+     34.2
+    ],
+    [
+     879.4,
+     32.6
+    ],
+    [
+     879.4,
+     31.1
+    ],
+    [
+     869.4,
+     31.2
+    ]
+   ],
+   "extrude": [
+    87.0,
+    155.0
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.post.B1",
+   "module": "output",
+   "name": "เสาค้ำทางลาด B",
+   "shape": "box",
+   "min": [
+    784.5,
+    87.0,
+    29.7
+   ],
+   "max": [
+    787.5,
+    90.0,
+    82.3
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.post.B2",
+   "module": "output",
+   "name": "เสาค้ำทางลาด B",
+   "shape": "box",
+   "min": [
+    784.5,
+    152.0,
+    35.4
+   ],
+   "max": [
+    787.5,
+    155.0,
+    82.3
+   ],
+   "material": "acrylic_clear"
+  },
+  {
+   "id": "out.B.pocket.floor.1",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 1/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     888.9,
+     17.0
+    ],
+    [
+     896.0,
+     17.0
+    ],
+    [
+     896.0,
+     20.5
+    ],
+    [
+     888.9,
+     22.0
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.2",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 2/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     896.0,
+     17.0
+    ],
+    [
+     903.1,
+     17.0
+    ],
+    [
+     903.1,
+     19.4
+    ],
+    [
+     896.0,
+     20.5
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.3",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 3/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     903.1,
+     17.0
+    ],
+    [
+     910.2,
+     17.0
+    ],
+    [
+     910.2,
+     18.6
+    ],
+    [
+     903.1,
+     19.4
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.4",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 4/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     910.2,
+     17.0
+    ],
+    [
+     917.3,
+     17.0
+    ],
+    [
+     917.3,
+     18.1
+    ],
+    [
+     910.2,
+     18.6
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.5",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 5/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     917.3,
+     17.0
+    ],
+    [
+     924.3,
+     17.0
+    ],
+    [
+     924.3,
+     18.0
+    ],
+    [
+     917.3,
+     18.1
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.6",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 6/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     924.3,
+     17.0
+    ],
+    [
+     931.4,
+     17.0
+    ],
+    [
+     931.4,
+     18.2
+    ],
+    [
+     924.3,
+     18.0
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.7",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 7/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     931.4,
+     17.0
+    ],
+    [
+     938.5,
+     17.0
+    ],
+    [
+     938.5,
+     18.7
+    ],
+    [
+     931.4,
+     18.2
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.8",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 8/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     938.5,
+     17.0
+    ],
+    [
+     945.6,
+     17.0
+    ],
+    [
+     945.6,
+     19.5
+    ],
+    [
+     938.5,
+     18.7
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.9",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 9/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     945.6,
+     17.0
+    ],
+    [
+     952.7,
+     17.0
+    ],
+    [
+     952.7,
+     20.7
+    ],
+    [
+     945.6,
+     19.5
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.10",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 10/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     952.7,
+     17.0
+    ],
+    [
+     959.8,
+     17.0
+    ],
+    [
+     959.8,
+     22.2
+    ],
+    [
+     952.7,
+     20.7
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.11",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 11/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     959.8,
+     17.0
+    ],
+    [
+     966.9,
+     17.0
+    ],
+    [
+     966.9,
+     24.1
+    ],
+    [
+     959.8,
+     22.2
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.floor.12",
+   "module": "output",
+   "name": "ร่องเว้าแอ่ง ลึก 4 (R155) ท่อน 12/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     966.9,
+     17.0
+    ],
+    [
+     974.0,
+     17.0
+    ],
+    [
+     974.0,
+     26.3
+    ],
+    [
+     966.9,
+     24.1
+    ]
+   ],
+   "extrude": [
+    0,
+    155.6
+   ],
+   "material": "printed",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 5,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.1",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 1/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     888.9,
+     17.0
+    ],
+    [
+     896.0,
+     17.0
+    ],
+    [
+     896.0,
+     20.5
+    ],
+    [
+     888.9,
+     22.0
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.2",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 2/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     896.0,
+     17.0
+    ],
+    [
+     903.1,
+     17.0
+    ],
+    [
+     903.1,
+     19.4
+    ],
+    [
+     896.0,
+     20.5
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.3",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 3/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     903.1,
+     17.0
+    ],
+    [
+     910.2,
+     17.0
+    ],
+    [
+     910.2,
+     18.6
+    ],
+    [
+     903.1,
+     19.4
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.4",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 4/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     910.2,
+     17.0
+    ],
+    [
+     917.3,
+     17.0
+    ],
+    [
+     917.3,
+     18.1
+    ],
+    [
+     910.2,
+     18.6
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.5",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 5/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     917.3,
+     17.0
+    ],
+    [
+     924.3,
+     17.0
+    ],
+    [
+     924.3,
+     18.0
+    ],
+    [
+     917.3,
+     18.1
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.6",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 6/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     924.3,
+     17.0
+    ],
+    [
+     931.4,
+     17.0
+    ],
+    [
+     931.4,
+     18.2
+    ],
+    [
+     924.3,
+     18.0
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.7",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 7/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     931.4,
+     17.0
+    ],
+    [
+     938.5,
+     17.0
+    ],
+    [
+     938.5,
+     18.7
+    ],
+    [
+     931.4,
+     18.2
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.8",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 8/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     938.5,
+     17.0
+    ],
+    [
+     945.6,
+     17.0
+    ],
+    [
+     945.6,
+     19.5
+    ],
+    [
+     938.5,
+     18.7
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.9",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 9/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     945.6,
+     17.0
+    ],
+    [
+     952.7,
+     17.0
+    ],
+    [
+     952.7,
+     20.7
+    ],
+    [
+     945.6,
+     19.5
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.10",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 10/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     952.7,
+     17.0
+    ],
+    [
+     959.8,
+     17.0
+    ],
+    [
+     959.8,
+     22.2
+    ],
+    [
+     952.7,
+     20.7
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.11",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 11/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     959.8,
+     17.0
+    ],
+    [
+     966.9,
+     17.0
+    ],
+    [
+     966.9,
+     24.1
+    ],
+    [
+     959.8,
+     22.2
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.tray.12",
+   "module": "output",
+   "name": "ร่องเว้าถาดหน้า ลึก 4 (R155) ท่อน 12/12",
+   "shape": "prism",
+   "plane": "xz",
+   "points": [
+    [
+     966.9,
+     17.0
+    ],
+    [
+     974.0,
+     17.0
+    ],
+    [
+     974.0,
+     26.3
+    ],
+    [
+     966.9,
+     24.1
+    ]
+   ],
+   "extrude": [
+    -125.3,
+    0
+   ],
+   "material": "eva_B",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 4,
+     "pivot": [
+      888.9,
+      0,
+      22.0
+     ]
+    }
+   },
+   "note": "ไข่ลงมาพักที่ก้นร่องแล้วไถลไปถาดหน้าตามร่อง ; ชิ้นจริงทำผิวโค้งต่อเนื่อง"
+  },
+  {
+   "id": "out.B.pocket.back.1",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 1/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     141.3,
+     29.4
+    ],
+    [
+     144.9,
+     29.7
+    ],
+    [
+     144.9,
+     31.1
+    ],
+    [
+     141.3,
+     30.4
+    ]
+   ],
+   "extrude": [
+    888.9,
+    974.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.back.2",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 2/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     144.9,
+     29.7
+    ],
+    [
+     148.2,
+     30.0
+    ],
+    [
+     148.2,
+     32.8
+    ],
+    [
+     144.9,
+     31.1
+    ]
+   ],
+   "extrude": [
+    888.9,
+    974.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.back.3",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 3/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     148.2,
+     30.0
+    ],
+    [
+     151.1,
+     30.2
+    ],
+    [
+     151.1,
+     35.2
+    ],
+    [
+     148.2,
+     32.8
+    ]
+   ],
+   "extrude": [
+    888.9,
+    974.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.back.4",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 4/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     151.1,
+     30.2
+    ],
+    [
+     153.2,
+     30.4
+    ],
+    [
+     153.2,
+     38.2
+    ],
+    [
+     151.1,
+     35.2
+    ]
+   ],
+   "extrude": [
+    888.9,
+    974.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.back.5",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 5/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     153.2,
+     30.4
+    ],
+    [
+     154.5,
+     30.5
+    ],
+    [
+     154.5,
+     41.6
+    ],
+    [
+     153.2,
+     38.2
+    ]
+   ],
+   "extrude": [
+    888.9,
+    974.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.back.6",
+   "module": "output",
+   "name": "โค้งผนังหลังราง R15 ท่อน 6/6",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     154.5,
+     30.5
+    ],
+    [
+     155.0,
+     30.6
+    ],
+    [
+     155.0,
+     45.3
+    ],
+    [
+     154.5,
+     41.6
+    ]
+   ],
+   "extrude": [
+    888.9,
+    974.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.corner.1",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 1/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     974.0,
+     155.0
+    ],
+    [
+     974.0,
+     135.0
+    ],
+    [
+     973.3,
+     140.2
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.corner.2",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 2/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     974.0,
+     155.0
+    ],
+    [
+     973.3,
+     140.2
+    ],
+    [
+     971.3,
+     145.0
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.corner.3",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 3/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     974.0,
+     155.0
+    ],
+    [
+     971.3,
+     145.0
+    ],
+    [
+     968.1,
+     149.1
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.corner.4",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 4/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     974.0,
+     155.0
+    ],
+    [
+     968.1,
+     149.1
+    ],
+    [
+     964.0,
+     152.3
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.corner.5",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 5/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     974.0,
+     155.0
+    ],
+    [
+     964.0,
+     152.3
+    ],
+    [
+     959.1,
+     154.3
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.pocket.corner.6",
+   "module": "output",
+   "name": "มุมมนท้ายแอ่ง R20 ท่อน 6/6",
+   "shape": "prism",
+   "plane": "xy",
+   "points": [
+    [
+     974.0,
+     155.0
+    ],
+    [
+     959.1,
+     154.3
+    ],
+    [
+     954.0,
+     155.0
+    ]
+   ],
+   "extrude": [
+    31.1,
+    84.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "out.B.stop.foam",
+   "module": "output",
+   "name": "กันชนโฟมท้ายแอ่ง",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     0,
+     17.5
+    ],
+    [
+     155.0,
+     31.1
+    ],
+    [
+     155.0,
+     84.0
+    ],
+    [
+     0,
+     84.0
+    ]
+   ],
+   "extrude": [
+    974.0,
+    979.0
+   ],
+   "material": "eva_B"
+  },
+  {
+   "id": "disp.body",
+   "module": "display",
+   "name": "Raspberry Pi Touch Display 2 7\" (189.5×120×15)",
+   "shape": "box",
+   "min": [
+    154.2,
+    26.0,
+    238
+   ],
+   "max": [
+    343.8,
+    146.0,
+    253
+   ],
+   "material": "screen_body",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 35,
+     "pivot": [
+      249,
+      26.0,
+      253
+     ]
+    }
+   }
+  },
+  {
+   "id": "disp.face",
+   "module": "display",
+   "name": "จอภาพ 155×88",
+   "shape": "box",
+   "min": [
+    171.2,
+    42.0,
+    252.8
+   ],
+   "max": [
+    326.8,
+    130.0,
+    253.2
+   ],
+   "material": "screen_face",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 35,
+     "pivot": [
+      249,
+      26.0,
+      253
+     ]
+    }
+   }
+  },
+  {
+   "id": "disp.pi5",
+   "module": "display",
+   "name": "Raspberry Pi 5 + Active Cooler (ยึดหลังจอ)",
+   "shape": "box",
+   "min": [
+    206.5,
+    58.0,
+    212
+   ],
+   "max": [
+    291.5,
+    114.0,
+    238
+   ],
+   "material": "pcb_green",
+   "transform": {
+    "rotate": {
+     "axis": [
+      1,
+      0,
+      0
+     ],
+     "deg": 35,
+     "pivot": [
+      249,
+      26.0,
+      253
+     ]
+    }
+   }
+  },
+  {
+   "id": "disp.bracket.l",
+   "module": "display",
+   "name": "ฉากแท่นจอ 35°",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     31.0,
+     235
+    ],
+    [
+     133.0,
+     235
+    ],
+    [
+     133.0,
+     309
+    ],
+    [
+     34.6,
+     240.7
+    ]
+   ],
+   "extrude": [
+    185,
+    190
+   ],
+   "material": "acrylic_black"
+  },
+  {
+   "id": "disp.bracket.r",
+   "module": "display",
+   "name": "ฉากแท่นจอ 35°",
+   "shape": "prism",
+   "plane": "yz",
+   "points": [
+    [
+     31.0,
+     235
+    ],
+    [
+     133.0,
+     235
+    ],
+    [
+     133.0,
+     309
+    ],
+    [
+     34.6,
+     240.7
+    ]
+   ],
+   "extrude": [
+    308,
+    313
+   ],
+   "material": "acrylic_black"
+  }
+ ],
+ "groups": [
+  {
+   "id": "esc.F",
+   "name": "escapement เลน F",
+   "parts": [
+    "esc.F.rocker",
+    "esc.F.rocker.barP2",
+    "esc.F.rocker.barP1"
+   ],
+   "motion": {
+    "type": "rotate",
+    "pivot": [
+     143.25,
+     42.0,
+     108
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "HOLD": 18.9,
+     "RELEASE": -18.9
+    },
+    "default": "HOLD",
+    "note": "บวก = ฝั่ง +X ยกขึ้น ; หมุดคู่ P1/P2 เลื่อนแนวตั้งตาม (กลุ่ม esc.*.p1 / p2)"
+   }
+  },
+  {
+   "id": "esc.F.p1",
+   "name": "หมุดคู่ P1 (ก้ามปู)",
+   "parts": [
+    "esc.F.pinP1a",
+    "esc.F.pinP1b"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     0,
+     1
+    ],
+    "states": {
+     "HOLD": 8.0,
+     "RELEASE": -8.0
+    },
+    "default": "HOLD",
+    "follows": "esc.F",
+    "note": "HOLD: ปลายหมุดสูงกว่าพื้น 15 มม. / RELEASE: ต่ำกว่าพื้น 1 มม."
+   }
+  },
+  {
+   "id": "esc.F.p2",
+   "name": "หมุดคู่ P2 (ก้ามปู)",
+   "parts": [
+    "esc.F.pinP2a",
+    "esc.F.pinP2b"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     0,
+     1
+    ],
+    "states": {
+     "HOLD": -8.0,
+     "RELEASE": 8.0
+    },
+    "default": "HOLD",
+    "follows": "esc.F"
+   }
+  },
+  {
+   "id": "esc.B",
+   "name": "escapement เลน B",
+   "parts": [
+    "esc.B.rocker",
+    "esc.B.rocker.barP2",
+    "esc.B.rocker.barP1"
+   ],
+   "motion": {
+    "type": "rotate",
+    "pivot": [
+     143.25,
+     121.0,
+     108
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "HOLD": 18.9,
+     "RELEASE": -18.9
+    },
+    "default": "HOLD",
+    "note": "บวก = ฝั่ง +X ยกขึ้น ; หมุดคู่ P1/P2 เลื่อนแนวตั้งตาม (กลุ่ม esc.*.p1 / p2)"
+   }
+  },
+  {
+   "id": "esc.B.p1",
+   "name": "หมุดคู่ P1 (ก้ามปู)",
+   "parts": [
+    "esc.B.pinP1a",
+    "esc.B.pinP1b"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     0,
+     1
+    ],
+    "states": {
+     "HOLD": 8.0,
+     "RELEASE": -8.0
+    },
+    "default": "HOLD",
+    "follows": "esc.B",
+    "note": "HOLD: ปลายหมุดสูงกว่าพื้น 15 มม. / RELEASE: ต่ำกว่าพื้น 1 มม."
+   }
+  },
+  {
+   "id": "esc.B.p2",
+   "name": "หมุดคู่ P2 (ก้ามปู)",
+   "parts": [
+    "esc.B.pinP2a",
+    "esc.B.pinP2b"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     0,
+     1
+    ],
+    "states": {
+     "HOLD": -8.0,
+     "RELEASE": 8.0
+    },
+    "default": "HOLD",
+    "follows": "esc.B"
+   }
+  },
+  {
+   "id": "ai.window",
+   "name": "ฝาหน้าตู้ AI ถอดได้",
+   "parts": [
+    "ai.wall.front.window"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "CLOSED": 0,
+     "REMOVED": 60
+    },
+    "default": "CLOSED"
+   }
+  },
+  {
+   "id": "roller.F",
+   "name": "ลูกกลิ้งเลน F",
+   "parts": [
+    "ai.F.roller1",
+    "ai.F.roller2"
+   ],
+   "motion": {
+    "type": "spin",
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "rpm": 120,
+    "pivots": {
+     "ai.F.roller1": [
+      216,
+      42.0,
+      108.0
+     ],
+     "ai.F.roller2": [
+      254,
+      42.0,
+      108.0
+     ]
+    },
+    "states": {
+     "OFF": 0,
+     "ON": 120
+    },
+    "default": "OFF",
+    "note": "ลูกกลิ้งทั้งสองหมุนทิศเดียวกัน ไข่หมุนสวน ~56 rpm"
+   }
+  },
+  {
+   "id": "k0.F",
+   "name": "K0 เลน F",
+   "parts": [
+    "ai.F.k0.bar",
+    "ai.F.k0.prong1",
+    "ai.F.k0.prong2",
+    "ai.F.k0.link"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     0,
+     1
+    ],
+    "states": {
+     "REST": 0,
+     "KICK": 22
+    },
+    "default": "REST",
+    "note": "นิ้วดันขึ้นในแนวตั้งผ่านช่อง X 226–244 ดันด้านซ้ายของไข่ให้กลิ้งข้ามลูกกลิ้ง 2"
+   }
+  },
+  {
+   "id": "f1.F",
+   "name": "F1 เลน F",
+   "parts": [
+    "ai.F.f1"
+   ],
+   "motion": {
+    "type": "rotate",
+    "pivot": [
+     268.0,
+     42.0,
+     117.0
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "STOP": 12.5,
+     "BRIDGE": -5.5,
+     "REJECT": -34.9
+    },
+    "default": "STOP",
+    "note": "บานชี้ไป +X จากบานพับ ; บวก = ปลายขวายกขึ้น ; STOP = เนินกั้นไข่ ; BRIDGE = สะพานไปแท่นชั่ง ; REJECT = ทางลาดลงแอ่งรางเสีย (K0 ดีดไข่ลงหลังบานถึงท่าแล้ว)"
+   }
+  },
+  {
+   "id": "roller.B",
+   "name": "ลูกกลิ้งเลน B",
+   "parts": [
+    "ai.B.roller1",
+    "ai.B.roller2"
+   ],
+   "motion": {
+    "type": "spin",
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "rpm": 120,
+    "pivots": {
+     "ai.B.roller1": [
+      216,
+      121.0,
+      108.0
+     ],
+     "ai.B.roller2": [
+      254,
+      121.0,
+      108.0
+     ]
+    },
+    "states": {
+     "OFF": 0,
+     "ON": 120
+    },
+    "default": "OFF",
+    "note": "ลูกกลิ้งทั้งสองหมุนทิศเดียวกัน ไข่หมุนสวน ~56 rpm"
+   }
+  },
+  {
+   "id": "k0.B",
+   "name": "K0 เลน B",
+   "parts": [
+    "ai.B.k0.bar",
+    "ai.B.k0.prong1",
+    "ai.B.k0.prong2",
+    "ai.B.k0.link"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     0,
+     1
+    ],
+    "states": {
+     "REST": 0,
+     "KICK": 22
+    },
+    "default": "REST",
+    "note": "นิ้วดันขึ้นในแนวตั้งผ่านช่อง X 226–244 ดันด้านซ้ายของไข่ให้กลิ้งข้ามลูกกลิ้ง 2"
+   }
+  },
+  {
+   "id": "f1.B",
+   "name": "F1 เลน B",
+   "parts": [
+    "ai.B.f1"
+   ],
+   "motion": {
+    "type": "rotate",
+    "pivot": [
+     268.0,
+     121.0,
+     117.0
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "STOP": 12.5,
+     "BRIDGE": -5.5,
+     "REJECT": -32.5
+    },
+    "default": "STOP",
+    "note": "บานชี้ไป +X จากบานพับ ; บวก = ปลายขวายกขึ้น ; STOP = เนินกั้นไข่ ; BRIDGE = สะพานไปแท่นชั่ง ; REJECT = ทางลาดลงแอ่งรางเสีย (K0 ดีดไข่ลงหลังบานถึงท่าแล้ว)"
+   }
+  },
+  {
+   "id": "k1.F",
+   "name": "K1 เลน F",
+   "parts": [
+    "sc.F.k1"
+   ],
+   "motion": {
+    "type": "rotate",
+    "pivot": [
+     565.0,
+     42.0,
+     160.5
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "REST": -8,
+     "KICK": 70
+    },
+    "default": "REST",
+    "note": "แขนชี้ไป −X ; KICK หมุนให้ปลายกวาดลงและไป +X ดันด้านบนซ้ายของไข่ออกจากแอ่ง"
+   }
+  },
+  {
+   "id": "k2.F",
+   "name": "K2 เลน F",
+   "parts": [
+    "sc.F.k2"
+   ],
+   "motion": {
+    "type": "rotate",
+    "pivot": [
+     602.5,
+     42.0,
+     92.6
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "STOP": 25.0,
+     "BRIDGE": -2.0,
+     "DROP": -43.1
+    },
+    "default": "STOP",
+    "note": "บวก = ปลายบานยกขึ้น ; BRIDGE = ทางไป B ; DROP = ทางลาดลงราง A ต่อแผ่นรับตายตัว"
+   }
+  },
+  {
+   "id": "k1.B",
+   "name": "K1 เลน B",
+   "parts": [
+    "sc.B.k1"
+   ],
+   "motion": {
+    "type": "rotate",
+    "pivot": [
+     565.0,
+     121.0,
+     160.5
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "REST": -8,
+     "KICK": 70
+    },
+    "default": "REST",
+    "note": "แขนชี้ไป −X ; KICK หมุนให้ปลายกวาดลงและไป +X ดันด้านบนซ้ายของไข่ออกจากแอ่ง"
+   }
+  },
+  {
+   "id": "k2.B",
+   "name": "K2 เลน B",
+   "parts": [
+    "sc.B.k2"
+   ],
+   "motion": {
+    "type": "rotate",
+    "pivot": [
+     602.5,
+     121.0,
+     92.6
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "STOP": 25.0,
+     "BRIDGE": -2.0,
+     "DROP": -39.0
+    },
+    "default": "STOP",
+    "note": "บวก = ปลายบานยกขึ้น ; BRIDGE = ทางไป B ; DROP = ทางลาดลงราง A ต่อแผ่นรับตายตัว"
+   }
+  },
+  {
+   "id": "insert.reject",
+   "name": "ชุดรางไข่เสีย",
+   "parts": [
+    "out.reject.chute.floor",
+    "out.reject.chute.surface",
+    "out.reject.chute.surface.end",
+    "out.reject.tray.floor",
+    "out.reject.tray.foam",
+    "out.reject.tray.foam.end",
+    "out.reject.chute.side.l",
+    "out.reject.chute.side.r",
+    "out.reject.tray.side.l",
+    "out.reject.tray.side.r",
+    "out.reject.shoulder.l",
+    "out.reject.back",
+    "out.reject.bumper",
+    "out.reject.runout.F",
+    "out.reject.runout.B",
+    "out.reject.pocket.floor.1",
+    "out.reject.pocket.floor.2",
+    "out.reject.pocket.floor.3",
+    "out.reject.pocket.floor.4",
+    "out.reject.pocket.floor.5",
+    "out.reject.pocket.floor.6",
+    "out.reject.pocket.floor.7",
+    "out.reject.pocket.floor.8",
+    "out.reject.pocket.floor.9",
+    "out.reject.pocket.floor.10",
+    "out.reject.pocket.floor.11",
+    "out.reject.pocket.floor.12",
+    "out.reject.pocket.tray.1",
+    "out.reject.pocket.tray.2",
+    "out.reject.pocket.tray.3",
+    "out.reject.pocket.tray.4",
+    "out.reject.pocket.tray.5",
+    "out.reject.pocket.tray.6",
+    "out.reject.pocket.tray.7",
+    "out.reject.pocket.tray.8",
+    "out.reject.pocket.tray.9",
+    "out.reject.pocket.tray.10",
+    "out.reject.pocket.tray.11",
+    "out.reject.pocket.tray.12",
+    "out.reject.pocket.back.1",
+    "out.reject.pocket.back.2",
+    "out.reject.pocket.back.3",
+    "out.reject.pocket.back.4",
+    "out.reject.pocket.back.5",
+    "out.reject.pocket.back.6",
+    "out.reject.pocket.corner.1",
+    "out.reject.pocket.corner.2",
+    "out.reject.pocket.corner.3",
+    "out.reject.pocket.corner.4",
+    "out.reject.pocket.corner.5",
+    "out.reject.pocket.corner.6",
+    "out.reject.stop.foam"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "IN": 0,
+     "OUT": 290
+    },
+    "default": "IN",
+    "note": "ก่อนดึงออก F1/K2 ต้องอยู่ STOP"
+   }
+  },
+  {
+   "id": "insert.A",
+   "name": "ชุดราง A",
+   "parts": [
+    "out.A.chute.floor",
+    "out.A.chute.surface",
+    "out.A.chute.surface.end",
+    "out.A.tray.floor",
+    "out.A.tray.foam",
+    "out.A.tray.foam.end",
+    "out.A.chute.side.l",
+    "out.A.chute.side.r",
+    "out.A.tray.side.l",
+    "out.A.tray.side.r",
+    "out.A.shoulder.l",
+    "out.A.back",
+    "out.A.bumper",
+    "out.A.runout.F",
+    "out.A.runout.B",
+    "out.A.pocket.floor.1",
+    "out.A.pocket.floor.2",
+    "out.A.pocket.floor.3",
+    "out.A.pocket.floor.4",
+    "out.A.pocket.floor.5",
+    "out.A.pocket.floor.6",
+    "out.A.pocket.floor.7",
+    "out.A.pocket.floor.8",
+    "out.A.pocket.floor.9",
+    "out.A.pocket.floor.10",
+    "out.A.pocket.floor.11",
+    "out.A.pocket.floor.12",
+    "out.A.pocket.tray.1",
+    "out.A.pocket.tray.2",
+    "out.A.pocket.tray.3",
+    "out.A.pocket.tray.4",
+    "out.A.pocket.tray.5",
+    "out.A.pocket.tray.6",
+    "out.A.pocket.tray.7",
+    "out.A.pocket.tray.8",
+    "out.A.pocket.tray.9",
+    "out.A.pocket.tray.10",
+    "out.A.pocket.tray.11",
+    "out.A.pocket.tray.12",
+    "out.A.pocket.back.1",
+    "out.A.pocket.back.2",
+    "out.A.pocket.back.3",
+    "out.A.pocket.back.4",
+    "out.A.pocket.back.5",
+    "out.A.pocket.back.6",
+    "out.A.pocket.corner.1",
+    "out.A.pocket.corner.2",
+    "out.A.pocket.corner.3",
+    "out.A.pocket.corner.4",
+    "out.A.pocket.corner.5",
+    "out.A.pocket.corner.6",
+    "out.A.stop.foam"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "IN": 0,
+     "OUT": 290
+    },
+    "default": "IN",
+    "note": "ก่อนดึงออก F1/K2 ต้องอยู่ STOP"
+   }
+  },
+  {
+   "id": "insert.B",
+   "name": "ชุดราง B",
+   "parts": [
+    "out.B.chute.floor",
+    "out.B.chute.surface",
+    "out.B.chute.surface.end",
+    "out.B.tray.floor",
+    "out.B.tray.foam",
+    "out.B.tray.foam.end",
+    "out.B.chute.side.l",
+    "out.B.chute.side.r",
+    "out.B.tray.side.l",
+    "out.B.tray.side.r",
+    "out.B.back",
+    "out.B.bumper",
+    "out.B.ramp.F.1",
+    "out.B.ramp.F.rail1.1",
+    "out.B.ramp.F.rail2.1",
+    "out.B.ramp.F.2",
+    "out.B.ramp.F.rail1.2",
+    "out.B.ramp.F.rail2.2",
+    "out.B.ramp.F.3",
+    "out.B.ramp.F.rail1.3",
+    "out.B.ramp.F.rail2.3",
+    "out.B.ramp.F.4",
+    "out.B.ramp.F.5",
+    "out.B.ramp.F.6",
+    "out.B.post.F1",
+    "out.B.post.F2",
+    "out.B.ramp.B.1",
+    "out.B.ramp.B.rail1.1",
+    "out.B.ramp.B.rail2.1",
+    "out.B.ramp.B.2",
+    "out.B.ramp.B.rail1.2",
+    "out.B.ramp.B.rail2.2",
+    "out.B.ramp.B.3",
+    "out.B.ramp.B.rail1.3",
+    "out.B.ramp.B.rail2.3",
+    "out.B.ramp.B.4",
+    "out.B.ramp.B.5",
+    "out.B.ramp.B.6",
+    "out.B.post.B1",
+    "out.B.post.B2",
+    "out.B.pocket.floor.1",
+    "out.B.pocket.floor.2",
+    "out.B.pocket.floor.3",
+    "out.B.pocket.floor.4",
+    "out.B.pocket.floor.5",
+    "out.B.pocket.floor.6",
+    "out.B.pocket.floor.7",
+    "out.B.pocket.floor.8",
+    "out.B.pocket.floor.9",
+    "out.B.pocket.floor.10",
+    "out.B.pocket.floor.11",
+    "out.B.pocket.floor.12",
+    "out.B.pocket.tray.1",
+    "out.B.pocket.tray.2",
+    "out.B.pocket.tray.3",
+    "out.B.pocket.tray.4",
+    "out.B.pocket.tray.5",
+    "out.B.pocket.tray.6",
+    "out.B.pocket.tray.7",
+    "out.B.pocket.tray.8",
+    "out.B.pocket.tray.9",
+    "out.B.pocket.tray.10",
+    "out.B.pocket.tray.11",
+    "out.B.pocket.tray.12",
+    "out.B.pocket.back.1",
+    "out.B.pocket.back.2",
+    "out.B.pocket.back.3",
+    "out.B.pocket.back.4",
+    "out.B.pocket.back.5",
+    "out.B.pocket.back.6",
+    "out.B.pocket.corner.1",
+    "out.B.pocket.corner.2",
+    "out.B.pocket.corner.3",
+    "out.B.pocket.corner.4",
+    "out.B.pocket.corner.5",
+    "out.B.pocket.corner.6",
+    "out.B.stop.foam"
+   ],
+   "motion": {
+    "type": "translate",
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "states": {
+     "IN": 0,
+     "OUT": 290
+    },
+    "default": "IN",
+    "note": "ก่อนดึงออก F1/K2 ต้องอยู่ STOP"
+   }
+  }
+ ],
+ "labels": [
+  {
+   "text": "ถาดป้อน + escapement",
+   "pos": [
+    90,
+    81.5,
+    200
+   ]
+  },
+  {
+   "text": "ตู้ AI (กล้อง + ลูกกลิ้ง)",
+   "pos": [
+    249,
+    81.5,
+    345
+   ]
+  },
+  {
+   "text": "กล่องชั่ง (load cell + K1 + K2 + ราง A/B)",
+   "pos": [
+    650.0,
+    81.5,
+    200
+   ]
+  },
+  {
+   "text": "K2 แยก A/B",
+   "pos": [
+    642.5,
+    81.5,
+    150
+   ]
+  },
+  {
+   "text": "ถาด เสีย / A / B",
+   "pos": [
+    651.5,
+    -110,
+    80
+   ]
+  },
+  {
+   "text": "แผงปุ่ม E-STOP / START",
+   "pos": [
+    120,
+    -40,
+    120
+   ]
+  }
+ ]
+}
